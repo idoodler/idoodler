@@ -6,11 +6,11 @@ Always building fun projects · Smart Home · Apple by day · Linux by heart
 
 [Mastodon](https://techhub.social/@idoodler) · [LinkedIn](https://www.linkedin.com/in/david-g%C3%B6lzh%C3%A4user-9112491b7) · [Instagram](https://instagram.com/idoodler) · [Reddit](https://reddit.com/user/idoodler) · [Stack Overflow](https://stackoverflow.com/users/1766321)
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg"><img src="assets/stats-light.svg" alt="662 contributions (12 mo), 44 public repositories, 78 stars, 33 followers" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg"><img src="assets/stats-light.svg" alt="664 contributions (12 mo), 44 public repositories, 78 stars, 33 followers" width="100%"></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg"><img src="assets/activity-light.svg" alt="662 contributions in the last 12 months" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg"><img src="assets/activity-light.svg" alt="664 contributions in the last 12 months" width="100%"></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg"><img src="assets/languages-light.svg" alt="Languages lately: Kotlin 34%, QML 23%, TypeScript 13%, JavaScript 13%, Swift 11%, Shell 1%, HTML 1%, Objective-C 1%" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg"><img src="assets/languages-light.svg" alt="Languages lately: Kotlin 34%, QML 23%, JavaScript 14%, TypeScript 13%, Swift 11%, Shell 1%, HTML 1%, Objective-C 1%" width="100%"></picture>
 
 ### Recently active projects
 
@@ -31,8 +31,8 @@ Always building fun projects · Smart Home · Apple by day · Linux by heart
 ### Latest commits
 
 - [Compile the qualitative row previews in debug builds only](https://github.com/idoodler/LabImporter/commit/586f081dc06028a921da366def3a734581da1a70) · LabImporter · 31 Oct 2026
+- [Add end-to-end tests on the simulator and in Robolectric](https://github.com/idoodler/LabImporter/commit/defd150b84194a6227494bfc130934e6839da8c2) · LabImporter · 31 Oct 2026
 - [Keep the trend screen open for results that aren't numbers](https://github.com/idoodler/LabImporter/commit/64e9b33ebb376ab8914bdd6c9415c15eb2aade45) · LabImporter · 31 Oct 2026
-- [Never match a word stem against related names](https://github.com/idoodler/LabImporter/commit/a25f8898619111b2345b08456cb13e2d050cee16) · LabImporter · 31 Oct 2026
 - [Add screenshots to README](https://github.com/idoodler/nightscout-plasmoid/commit/6874abc95aba6229c1dba732162b634c8b5f32e1) · nightscout-plasmoid · 24 Aug 2026
 - [Initial commit of Nightscout Plasmoid](https://github.com/idoodler/nightscout-plasmoid/commit/b93e42ff0a10c280c45d5e89a9911d55e3c6bd47) · nightscout-plasmoid · 23 Aug 2026
 - [Create README.md](https://github.com/idoodler/plane-tracker/commit/9034170d5021bcf655e99e7d6f646ac7a846c8af) · plane-tracker · 12 Apr 2026

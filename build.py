@@ -1,7 +1,8 @@
 """Builds this profile from public GitHub data; run by .github/workflows/update.yml.
 
 Writes README.md and assets/*.svg (github.com/idoodler) and profile.json (read by idoodler.de), so both
-show the same data. Hand-written content lives in profile.toml; don't edit the generated files.
+show the same data. The site gets more of it for its interactive parts: archived projects, each project's
+language mix and a year of commits. Hand-written content lives in profile.toml; don't edit generated files.
 Standard library only. A failed run writes nothing, so the last good version stays online.
 """
 
@@ -14,7 +15,7 @@ import textwrap
 import tomllib
 import urllib.error
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from xml.sax.saxutils import escape
 
@@ -24,12 +25,16 @@ ROOT = Path(__file__).resolve().parent
 
 LANGUAGE_REPOS = 25  # most recently pushed repos whose languages are counted
 LANGUAGE_HALF_LIFE_YEARS = 1.5  # a repo last pushed this long ago counts half
+# What the README shows; profile.json has everything
 PROJECT_COUNT = 9
 COMMIT_REPOS = 6
 COMMIT_COUNT = 10
 COMMITS_PER_REPO = 3
+# Commits per repo in profile.json: the last year, and at least this many for quiet repos
+COMMITS_ALWAYS_KEPT = 5
+COMMIT_LOG_DAYS = 370
 # Generated-file languages that say nothing about what the code is written in
-IGNORED_LANGUAGES = {"Makefile", "Batchfile", "Procfile", "Roff", "CMake", "M4", "Nix"}
+IGNORED_LANGUAGES = {"Makefile", "Batchfile", "Procfile", "Roff", "CMake", "M4", "Nix", "Dockerfile"}
 
 # GitHub's language colours for what's likely to show up; the rest get a neutral colour
 LANGUAGE_COLORS = {
@@ -69,6 +74,19 @@ def fetch(url, accept="application/vnd.github+json"):
 
 def api(path):
     return json.loads(fetch(f"https://api.github.com{path}"))
+
+
+def language_color(name):
+    return LANGUAGE_COLORS.get(name, NEUTRAL)
+
+
+def language_mix(sizes):
+    total = sum(sizes.values()) or 1
+    return [
+        {"name": name, "share": round(size / total, 3), "color": language_color(name)}
+        for name, size in sorted(sizes.items(), key=lambda item: item[1], reverse=True)
+        if size / total >= 0.01
+    ]
 
 
 def parse_time(value):
@@ -112,42 +130,58 @@ def collect(config):
         if not repo["private"] and not repo["fork"]:
             others.append(repo)
 
-    # Not archived, and not this profile repo
-    repos = [repo for repo in own + others if not repo["archived"] and repo["name"].lower() != USER.lower()]
-    repos.sort(key=lambda repo: repo["pushed_at"], reverse=True)
+    # Everything but this profile repo. Archived repos appear on the site only, not in the README or language mix
+    all_repos = [repo for repo in own + others if repo["name"].lower() != USER.lower()]
+    all_repos.sort(key=lambda repo: repo["pushed_at"], reverse=True)
+    repos = [repo for repo in all_repos if not repo["archived"]]
+
+    sizes = {
+        repo["full_name"]: {
+            language: size
+            for language, size in api(f"/repos/{repo['full_name']}/languages").items()
+            if language not in IGNORED_LANGUAGES
+        }
+        for repo in all_repos
+    }
 
     # Languages: each repo's mix (so one big codebase doesn't hide the rest), weighted down by the age of its
     # last push
     weights = {}
     for repo in repos[:LANGUAGE_REPOS]:
         factor = 0.5 ** ((now - parse_time(repo["pushed_at"])).days / 365.25 / LANGUAGE_HALF_LIFE_YEARS)
-        sizes = {
-            language: size
-            for language, size in api(f"/repos/{repo['full_name']}/languages").items()
-            if language not in IGNORED_LANGUAGES
-        }
-        for language, size in sizes.items():
-            weights[language] = weights.get(language, 0) + size / sum(sizes.values()) * factor
+        repo_sizes = sizes[repo["full_name"]]
+        for language, size in repo_sizes.items():
+            weights[language] = weights.get(language, 0) + size / sum(repo_sizes.values()) * factor
     total_weight = sum(weights.values()) or 1
     languages = [
-        {"name": name, "share": round(weight / total_weight, 3)}
+        {"name": name, "share": round(weight / total_weight, 3), "color": language_color(name)}
         for name, weight in sorted(weights.items(), key=lambda item: item[1], reverse=True)
         if weight / total_weight >= 0.01
     ][:10]
 
-    # Latest commits by the user in the most recently pushed repos, without merges
+    # Commits by the user in every repo, without merges
+    cutoff = now - timedelta(days=COMMIT_LOG_DAYS)
     commits = []
-    for repo in repos[:COMMIT_REPOS]:
+    for repo in all_repos:
         try:
-            items = api(f"/repos/{repo['full_name']}/commits?author={USER}&per_page=10")
+            items = api(f"/repos/{repo['full_name']}/commits?author={USER}&per_page=100")
         except urllib.error.HTTPError:
             continue  # empty repos answer 409
-        for item in [item for item in items if len(item["parents"]) < 2][:COMMITS_PER_REPO]:
+        seen = set()  # the same change can land twice, rebased or cherry-picked
+        for item in items:
+            message = item["commit"]["message"].split("\n", 1)[0][:140]
+            if len(item["parents"]) > 1 or message in seen:
+                continue
+            date = item["commit"]["author"]["date"]
+            if len(seen) >= COMMITS_ALWAYS_KEPT and parse_time(date) < cutoff:
+                break
+            seen.add(message)
             commits.append({
                 "repo": repo["full_name"],
-                "message": item["commit"]["message"].split("\n", 1)[0][:140],
+                "sha": item["sha"][:7],
+                "message": message,
                 "url": item["html_url"],
-                "date": item["commit"]["author"]["date"],
+                "date": date,
             })
     commits.sort(key=lambda commit: commit["date"], reverse=True)
 
@@ -155,6 +189,7 @@ def collect(config):
         "generated_at": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
         "user": {key: user.get(key) for key in (
             "login", "name", "avatar_url", "html_url", "bio", "company", "location", "followers", "public_repos",
+            "created_at",
         )},
         "interests": config.get("interests", []),
         "socials": config.get("socials", []),
@@ -167,14 +202,21 @@ def collect(config):
                 "full_name": repo["full_name"],
                 "owner": repo["owner"]["login"],
                 "url": repo["html_url"],
+                "homepage": repo["homepage"] or None,
                 "description": repo["description"],
                 "language": repo["language"],
+                "color": language_color(repo["language"]),
+                "languages": language_mix(sizes[repo["full_name"]]),
+                "topics": repo["topics"],
                 "stars": repo["stargazers_count"],
+                "forks": repo["forks_count"],
+                "archived": repo["archived"],
+                "created_at": repo["created_at"],
                 "pushed_at": repo["pushed_at"],
             }
-            for repo in repos[:PROJECT_COUNT]
+            for repo in all_repos
         ],
-        "commits": commits[:COMMIT_COUNT],
+        "commits": commits,
     }
 
 
@@ -313,6 +355,18 @@ def markdown_text(value):
     return re.sub(r"([\\`*_\[\]<>|~])", r"\\\1", value)
 
 
+def readme_projects(data):
+    return [project for project in data["projects"] if not project["archived"]][:PROJECT_COUNT]
+
+
+def readme_commits(data):
+    commits = []
+    for project in readme_projects(data)[:COMMIT_REPOS]:
+        commits += [c for c in data["commits"] if c["repo"] == project["full_name"]][:COMMITS_PER_REPO]
+    commits.sort(key=lambda commit: commit["date"], reverse=True)
+    return commits[:COMMIT_COUNT]
+
+
 def readme(data):
     lines = ["<!-- Generated by build.py from GitHub data and profile.toml, don't edit. Also shown on idoodler.de. -->", ""]
     if data["user"].get("bio"):
@@ -329,12 +383,12 @@ def readme(data):
         "### Recently active projects", "",
     ]
     lines.append("<p>")
-    for index, project in enumerate(data["projects"]):
+    for index, project in enumerate(readme_projects(data)):
         description = f': {project["description"]}' if project["description"] else ""
         lines.append(f'<a href="{html.escape(project["url"])}">{picture(f"project-{index}", project["name"] + description, "32%")}</a>')
     lines += ["</p>", "", f'[All repositories →](https://github.com/{USER}?tab=repositories)', ""]
     lines += ["### Latest commits", ""]
-    for commit in data["commits"]:
+    for commit in readme_commits(data):
         repo = commit["repo"].split("/")[-1]
         lines.append(f'- [{markdown_text(commit["message"])}]({commit["url"]}) · {markdown_text(repo)} · {parse_time(commit["date"]):%-d %b %Y}')
     return "\n".join(lines) + "\n"
@@ -359,7 +413,7 @@ def main():
         assets[f"stats-{name}.svg"] = stats_svg(data, theme)
         assets[f"activity-{name}.svg"] = calendar_svg(data, theme)
         assets[f"languages-{name}.svg"] = languages_svg(data, theme)
-        for index, project in enumerate(data["projects"]):
+        for index, project in enumerate(readme_projects(data)):
             assets[f"project-{index}-{name}.svg"] = project_svg(project, data["user"]["login"], theme)
     readme_text = readme(data)
 

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T20:48:08Z",
+ "generated_at": "2026-11-03T22:01:45Z",
  "user": {
   "login": "idoodler",
   "name": "David Gölzhäuser",
@@ -9,7 +9,8 @@
   "company": "Loxone Electronics GmbH",
   "location": "Germany",
   "followers": 33,
-  "public_repos": 44
+  "public_repos": 44,
+  "created_at": "2014-03-01T15:13:50Z"
  },
  "interests": [
   "Always building fun projects",
@@ -41,7 +42,7 @@
  ],
  "stars": 78,
  "contributions": {
-  "total": 662,
+  "total": 664,
   "days": [
    {
     "date": "2025-11-02",
@@ -1876,42 +1877,50 @@
    {
     "date": "2026-11-03",
     "level": 1,
-    "count": 10
+    "count": 12
    }
   ]
  },
  "languages": [
   {
    "name": "Kotlin",
-   "share": 0.339
+   "share": 0.343,
+   "color": "#a97bff"
   },
   {
    "name": "QML",
-   "share": 0.229
-  },
-  {
-   "name": "TypeScript",
-   "share": 0.134
+   "share": 0.229,
+   "color": "#44a51c"
   },
   {
    "name": "JavaScript",
-   "share": 0.132
+   "share": 0.137,
+   "color": "#f1e05a"
+  },
+  {
+   "name": "TypeScript",
+   "share": 0.134,
+   "color": "#3178c6"
   },
   {
    "name": "Swift",
-   "share": 0.107
+   "share": 0.107,
+   "color": "#f05138"
   },
   {
    "name": "Shell",
-   "share": 0.014
+   "share": 0.014,
+   "color": "#89e051"
   },
   {
    "name": "HTML",
-   "share": 0.014
+   "share": 0.014,
+   "color": "#e34c26"
   },
   {
    "name": "Objective-C",
-   "share": 0.013
+   "share": 0.013,
+   "color": "#438eff"
   }
  ],
  "projects": [
@@ -1920,9 +1929,37 @@
    "full_name": "idoodler/LabImporter",
    "owner": "idoodler",
    "url": "https://github.com/idoodler/LabImporter",
+   "homepage": null,
    "description": null,
    "language": "Kotlin",
+   "color": "#a97bff",
+   "languages": [
+    {
+     "name": "Kotlin",
+     "share": 0.569,
+     "color": "#a97bff"
+    },
+    {
+     "name": "Swift",
+     "share": 0.392,
+     "color": "#f05138"
+    },
+    {
+     "name": "Python",
+     "share": 0.024,
+     "color": "#3572a5"
+    },
+    {
+     "name": "Ruby",
+     "share": 0.013,
+     "color": "#701516"
+    }
+   ],
+   "topics": [],
    "stars": 29,
+   "forks": 10,
+   "archived": false,
+   "created_at": "2026-05-27T06:54:20Z",
    "pushed_at": "2026-10-31T13:16:37Z"
   },
   {
@@ -1930,29 +1967,116 @@
    "full_name": "idoodler/nightscout-plasmoid",
    "owner": "idoodler",
    "url": "https://github.com/idoodler/nightscout-plasmoid",
+   "homepage": null,
    "description": null,
    "language": "QML",
+   "color": "#44a51c",
+   "languages": [
+    {
+     "name": "QML",
+     "share": 0.943,
+     "color": "#44a51c"
+    },
+    {
+     "name": "Shell",
+     "share": 0.057,
+     "color": "#89e051"
+    }
+   ],
+   "topics": [],
    "stars": 0,
+   "forks": 0,
+   "archived": false,
+   "created_at": "2026-08-23T19:38:22Z",
    "pushed_at": "2026-08-24T04:57:39Z"
+  },
+  {
+   "name": "MMM-Loxone",
+   "full_name": "idoodler/MMM-Loxone",
+   "owner": "idoodler",
+   "url": "https://github.com/idoodler/MMM-Loxone",
+   "homepage": "https://www.idoodler.de",
+   "description": "MMM-Loxone connects to your Loxone Miniserver and lets it communicate to your MagicMirror².",
+   "language": "JavaScript",
+   "color": "#f1e05a",
+   "languages": [
+    {
+     "name": "JavaScript",
+     "share": 0.999,
+     "color": "#f1e05a"
+    }
+   ],
+   "topics": [
+    "loxone",
+    "magicmirror"
+   ],
+   "stars": 11,
+   "forks": 2,
+   "archived": true,
+   "created_at": "2018-04-23T19:59:59Z",
+   "pushed_at": "2026-06-14T10:43:15Z"
   },
   {
    "name": "plane-tracker",
    "full_name": "idoodler/plane-tracker",
    "owner": "idoodler",
    "url": "https://github.com/idoodler/plane-tracker",
+   "homepage": null,
    "description": null,
    "language": null,
+   "color": "#8b949e",
+   "languages": [],
+   "topics": [],
    "stars": 0,
+   "forks": 0,
+   "archived": false,
+   "created_at": "2026-04-12T07:35:02Z",
    "pushed_at": "2026-04-12T11:39:53Z"
+  },
+  {
+   "name": "noise-generator",
+   "full_name": "idoodler/noise-generator",
+   "owner": "idoodler",
+   "url": "https://github.com/idoodler/noise-generator",
+   "homepage": null,
+   "description": null,
+   "language": "JavaScript",
+   "color": "#f1e05a",
+   "languages": [
+    {
+     "name": "JavaScript",
+     "share": 1.0,
+     "color": "#f1e05a"
+    }
+   ],
+   "topics": [],
+   "stars": 0,
+   "forks": 0,
+   "archived": true,
+   "created_at": "2023-04-23T08:34:43Z",
+   "pushed_at": "2026-02-21T20:39:40Z"
   },
   {
    "name": "kotlin-noise-generator",
    "full_name": "idoodler/kotlin-noise-generator",
    "owner": "idoodler",
    "url": "https://github.com/idoodler/kotlin-noise-generator",
+   "homepage": null,
    "description": null,
    "language": "Kotlin",
+   "color": "#a97bff",
+   "languages": [
+    {
+     "name": "Kotlin",
+     "share": 1.0,
+     "color": "#a97bff"
+    }
+   ],
+   "topics": [],
    "stars": 0,
+   "forks": 1,
+   "archived": false,
+   "created_at": "2026-02-21T17:42:23Z",
    "pushed_at": "2026-02-21T18:31:55Z"
   },
   {
@@ -1960,9 +2084,27 @@
    "full_name": "idoodler/homebridge-loxone",
    "owner": "idoodler",
    "url": "https://github.com/idoodler/homebridge-loxone",
+   "homepage": null,
    "description": null,
    "language": "TypeScript",
+   "color": "#3178c6",
+   "languages": [
+    {
+     "name": "TypeScript",
+     "share": 0.934,
+     "color": "#3178c6"
+    },
+    {
+     "name": "JavaScript",
+     "share": 0.066,
+     "color": "#f1e05a"
+    }
+   ],
+   "topics": [],
    "stars": 0,
+   "forks": 0,
+   "archived": false,
+   "created_at": "2025-07-08T05:25:33Z",
    "pushed_at": "2025-07-08T05:25:35Z"
   },
   {
@@ -1970,9 +2112,22 @@
    "full_name": "idoodler/openrgb-loxone",
    "owner": "idoodler",
    "url": "https://github.com/idoodler/openrgb-loxone",
+   "homepage": null,
    "description": null,
    "language": "JavaScript",
+   "color": "#f1e05a",
+   "languages": [
+    {
+     "name": "JavaScript",
+     "share": 1.0,
+     "color": "#f1e05a"
+    }
+   ],
+   "topics": [],
    "stars": 1,
+   "forks": 0,
+   "archived": false,
+   "created_at": "2022-01-22T10:00:50Z",
    "pushed_at": "2023-05-21T08:42:01Z"
   },
   {
@@ -1980,9 +2135,26 @@
    "full_name": "idoodler/MMM-RPI-LED",
    "owner": "idoodler",
    "url": "https://github.com/idoodler/MMM-RPI-LED",
+   "homepage": "https://www.idoodler.de",
    "description": "Control the build in LEDs of your Raspberry Pi",
    "language": "JavaScript",
+   "color": "#f1e05a",
+   "languages": [
+    {
+     "name": "JavaScript",
+     "share": 1.0,
+     "color": "#f1e05a"
+    }
+   ],
+   "topics": [
+    "magicmirror",
+    "raspberry-pi",
+    "rpi-leds"
+   ],
    "stars": 7,
+   "forks": 2,
+   "archived": false,
+   "created_at": "2018-05-21T20:09:02Z",
    "pushed_at": "2022-05-25T23:13:49Z"
   },
   {
@@ -1990,9 +2162,27 @@
    "full_name": "idoodler/iOS15-GetUserMedia",
    "owner": "idoodler",
    "url": "https://github.com/idoodler/iOS15-GetUserMedia",
+   "homepage": null,
    "description": null,
    "language": "HTML",
+   "color": "#e34c26",
+   "languages": [
+    {
+     "name": "HTML",
+     "share": 0.558,
+     "color": "#e34c26"
+    },
+    {
+     "name": "JavaScript",
+     "share": 0.442,
+     "color": "#f1e05a"
+    }
+   ],
+   "topics": [],
    "stars": 0,
+   "forks": 0,
+   "archived": false,
+   "created_at": "2021-09-27T13:51:12Z",
    "pushed_at": "2021-09-27T14:20:54Z"
   },
   {
@@ -2000,72 +2190,1070 @@
    "full_name": "idoodler/MMM-BalenaWatcher",
    "owner": "idoodler",
    "url": "https://github.com/idoodler/MMM-BalenaWatcher",
+   "homepage": null,
    "description": null,
    "language": "JavaScript",
+   "color": "#f1e05a",
+   "languages": [
+    {
+     "name": "JavaScript",
+     "share": 1.0,
+     "color": "#f1e05a"
+    }
+   ],
+   "topics": [],
    "stars": 0,
+   "forks": 0,
+   "archived": false,
+   "created_at": "2020-02-08T12:34:02Z",
    "pushed_at": "2021-01-05T20:27:02Z"
+  },
+  {
+   "name": "POEditor",
+   "full_name": "idoodler/POEditor",
+   "owner": "idoodler",
+   "url": "https://github.com/idoodler/POEditor",
+   "homepage": "www.idoodler.de",
+   "description": "An easy to use class to get localisations from POEditor.",
+   "language": "Objective-C",
+   "color": "#438eff",
+   "languages": [
+    {
+     "name": "Objective-C",
+     "share": 1.0,
+     "color": "#438eff"
+    }
+   ],
+   "topics": [],
+   "stars": 4,
+   "forks": 3,
+   "archived": false,
+   "created_at": "2014-04-21T18:31:55Z",
+   "pushed_at": "2020-03-16T13:05:33Z"
+  },
+  {
+   "name": "MMM-ENV-Provider",
+   "full_name": "idoodler/MMM-ENV-Provider",
+   "owner": "idoodler",
+   "url": "https://github.com/idoodler/MMM-ENV-Provider",
+   "homepage": "https://idoodler.de",
+   "description": "Provides environmental variables to the MagicMirror frontend",
+   "language": "JavaScript",
+   "color": "#f1e05a",
+   "languages": [
+    {
+     "name": "JavaScript",
+     "share": 1.0,
+     "color": "#f1e05a"
+    }
+   ],
+   "topics": [
+    "magicmirror"
+   ],
+   "stars": 2,
+   "forks": 2,
+   "archived": false,
+   "created_at": "2019-07-22T23:12:37Z",
+   "pushed_at": "2019-12-05T11:33:53Z"
+  },
+  {
+   "name": "balena-MagicMirror",
+   "full_name": "idoodler/balena-MagicMirror",
+   "owner": "idoodler",
+   "url": "https://github.com/idoodler/balena-MagicMirror",
+   "homepage": null,
+   "description": "MagicMirror project for balenaCloud projects",
+   "language": "JavaScript",
+   "color": "#f1e05a",
+   "languages": [
+    {
+     "name": "JavaScript",
+     "share": 0.917,
+     "color": "#f1e05a"
+    },
+    {
+     "name": "Shell",
+     "share": 0.083,
+     "color": "#89e051"
+    }
+   ],
+   "topics": [
+    "balena",
+    "balenacloud",
+    "magicmirror"
+   ],
+   "stars": 16,
+   "forks": 6,
+   "archived": true,
+   "created_at": "2019-03-30T18:41:12Z",
+   "pushed_at": "2019-07-26T12:41:10Z"
+  },
+  {
+   "name": "ZeroAPS",
+   "full_name": "idoodler/ZeroAPS",
+   "owner": "idoodler",
+   "url": "https://github.com/idoodler/ZeroAPS",
+   "homepage": null,
+   "description": "Use a Raspberry Pi Zero an a few other products to build your compact close loop with OpenAPS",
+   "language": null,
+   "color": "#8b949e",
+   "languages": [],
+   "topics": [],
+   "stars": 8,
+   "forks": 7,
+   "archived": false,
+   "created_at": "2016-07-02T20:33:13Z",
+   "pushed_at": "2017-12-30T09:28:49Z"
+  },
+  {
+   "name": "SBNotification",
+   "full_name": "idoodler/SBNotification",
+   "owner": "idoodler",
+   "url": "https://github.com/idoodler/SBNotification",
+   "homepage": "https://www.idoodler.de",
+   "description": "Simple Statusbar Notification for iOS (Swift)",
+   "language": "Swift",
+   "color": "#f05138",
+   "languages": [
+    {
+     "name": "Swift",
+     "share": 0.945,
+     "color": "#f05138"
+    },
+    {
+     "name": "Objective-C",
+     "share": 0.055,
+     "color": "#438eff"
+    }
+   ],
+   "topics": [],
+   "stars": 0,
+   "forks": 0,
+   "archived": false,
+   "created_at": "2017-02-18T15:15:27Z",
+   "pushed_at": "2017-02-18T15:43:59Z"
+  },
+  {
+   "name": "Fily-Issues",
+   "full_name": "idoodler/Fily-Issues",
+   "owner": "idoodler",
+   "url": "https://github.com/idoodler/Fily-Issues",
+   "homepage": null,
+   "description": "Report anything you find.",
+   "language": null,
+   "color": "#8b949e",
+   "languages": [],
+   "topics": [],
+   "stars": 0,
+   "forks": 1,
+   "archived": false,
+   "created_at": "2015-10-10T23:02:32Z",
+   "pushed_at": "2015-10-11T07:41:41Z"
   }
  ],
  "commits": [
   {
    "repo": "idoodler/LabImporter",
+   "sha": "586f081",
    "message": "Compile the qualitative row previews in debug builds only",
    "url": "https://github.com/idoodler/LabImporter/commit/586f081dc06028a921da366def3a734581da1a70",
    "date": "2026-10-31T12:27:18Z"
   },
   {
    "repo": "idoodler/LabImporter",
+   "sha": "defd150",
+   "message": "Add end-to-end tests on the simulator and in Robolectric",
+   "url": "https://github.com/idoodler/LabImporter/commit/defd150b84194a6227494bfc130934e6839da8c2",
+   "date": "2026-10-31T08:51:57Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "64e9b33",
    "message": "Keep the trend screen open for results that aren't numbers",
    "url": "https://github.com/idoodler/LabImporter/commit/64e9b33ebb376ab8914bdd6c9415c15eb2aade45",
    "date": "2026-10-31T08:51:39Z"
   },
   {
    "repo": "idoodler/LabImporter",
+   "sha": "a25f889",
    "message": "Never match a word stem against related names",
    "url": "https://github.com/idoodler/LabImporter/commit/a25f8898619111b2345b08456cb13e2d050cee16",
    "date": "2026-10-31T08:32:16Z"
   },
   {
+   "repo": "idoodler/LabImporter",
+   "sha": "f286e97",
+   "message": "Sync the Xcode project after merging",
+   "url": "https://github.com/idoodler/LabImporter/commit/f286e9744c176d267501ed796d6d62f44c2cb3fc",
+   "date": "2026-10-31T08:30:47Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "6f505f6",
+   "message": "Keep unranked chemistry terms in the catalog, known but never suggested",
+   "url": "https://github.com/idoodler/LabImporter/commit/6f505f60e0dcc910236ed711c6a57fc4de22c481",
+   "date": "2026-10-31T08:25:45Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "821b615",
+   "message": "Match English report names through LOINC's long and related names",
+   "url": "https://github.com/idoodler/LabImporter/commit/821b615d1f3f543c5ddb623f6529795b7bdbbdeb",
+   "date": "2026-10-31T08:21:43Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "6eac8a7",
+   "message": "OCR PDF pages whose embedded text uses private-use characters",
+   "url": "https://github.com/idoodler/LabImporter/commit/6eac8a739c97c5dbdf3aed3046e1ad8460dce6cc",
+   "date": "2026-10-31T07:57:42Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "48a194f",
+   "message": "Show results that aren't numbers on the dashboard",
+   "url": "https://github.com/idoodler/LabImporter/commit/48a194f2ec565e3309913a4108452402711ddd2f",
+   "date": "2026-10-31T00:06:58Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "e8f4e6f",
+   "message": "CLAUDE.md: the result's shape in LOINC resolution",
+   "url": "https://github.com/idoodler/LabImporter/commit/e8f4e6fe88dc4605ebb5bdc0fc0dc216fdeeadce",
+   "date": "2026-10-30T23:58:47Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "9bfa4a2",
+   "message": "Match qualitative results to terms that can hold them; drop copied flags",
+   "url": "https://github.com/idoodler/LabImporter/commit/9bfa4a24a37b4fcc75aad23ed861e4cda102c4c0",
+   "date": "2026-10-30T23:58:41Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "7455da6",
+   "message": "Fix release archive Swift compile errors",
+   "url": "https://github.com/idoodler/LabImporter/commit/7455da65ca2dc38d99a6a66bbcd19c3d9c635969",
+   "date": "2026-10-30T22:18:29Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "b9e5df5",
+   "message": "Save qualitative results (Negativ, 1:160, <0.5) instead of dropping them",
+   "url": "https://github.com/idoodler/LabImporter/commit/b9e5df535fcd10efe2919d789e690ddcff0dd2fa",
+   "date": "2026-10-30T21:55:26Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "da19e3a",
+   "message": "Read long reports in parts; map iOS 27 language model errors",
+   "url": "https://github.com/idoodler/LabImporter/commit/da19e3a8218215e06f5e79f364d366ee6523b47d",
+   "date": "2026-10-30T21:36:59Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "61a3df2",
+   "message": "Fix the Swift 6 concurrency and deprecation warnings",
+   "url": "https://github.com/idoodler/LabImporter/commit/61a3df255928637887efdaf216a023ceb1a0db50",
+   "date": "2026-10-30T21:30:10Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "5eee98c",
+   "message": "Keep DISCOURAGED LOINC codes labs still print in the catalog",
+   "url": "https://github.com/idoodler/LabImporter/commit/5eee98c1ba790870a16cd816a2d78fa2daf7e420",
+   "date": "2026-10-30T21:24:33Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "cbc30dc",
+   "message": "Build with Xcode 27.1 on the xcode-27 runner image",
+   "url": "https://github.com/idoodler/LabImporter/commit/cbc30dcff19f248bc172da75bd70a0bce5bba47c",
+   "date": "2026-10-30T20:45:06Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "44fea08",
+   "message": "Split the Review screen into two panes at the iPhone Duo's fold",
+   "url": "https://github.com/idoodler/LabImporter/commit/44fea08e0c1c599ff858eab371a15dd30dca183b",
+   "date": "2026-10-30T20:44:25Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "6fbeaaa",
+   "message": "Keep dashboard cards off the iPhone Duo's hinge",
+   "url": "https://github.com/idoodler/LabImporter/commit/6fbeaaa828e1944437a08a7aa69c78e8e339438c",
+   "date": "2026-10-30T20:40:03Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "78d1041",
+   "message": "Bump version to 2.0.1",
+   "url": "https://github.com/idoodler/LabImporter/commit/78d1041451888c984daa163f6db7d6d22ae85ae4",
+   "date": "2026-10-30T20:31:17Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "cd21cf2",
+   "message": "Fit the dashboard grid and trend sheet to iPhone Duo",
+   "url": "https://github.com/idoodler/LabImporter/commit/cd21cf2dc5e11127980eb27139ec028055ae6bdd",
+   "date": "2026-10-30T19:47:17Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "d19dea7",
+   "message": "README: how to fix a build that can't find a provisioning profile (#107)",
+   "url": "https://github.com/idoodler/LabImporter/commit/d19dea7be8f3f51919afc5e21cc37cd8d7a6ee5b",
+   "date": "2026-10-24T07:58:39Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "0f721f5",
+   "message": "LabImporter 2.0.0: Android app, shared Kotlin core and on-device Gemma (#106)",
+   "url": "https://github.com/idoodler/LabImporter/commit/0f721f54c22005ae24fe3c85fdeaac4344900dc1",
+   "date": "2026-10-24T06:41:20Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "6595ac4",
+   "message": "Fix oversized launch screen icon (#97)",
+   "url": "https://github.com/idoodler/LabImporter/commit/6595ac47847b6b1950a2e100aa164b314a04d688",
+   "date": "2026-10-19T16:40:19Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "08fba21",
+   "message": "Redesign app icon with Icon Composer (Liquid Glass) (#96)",
+   "url": "https://github.com/idoodler/LabImporter/commit/08fba2145b6bb7a0e76bbf7e6e04003a29c1b1c0",
+   "date": "2026-10-19T14:52:21Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "30e37ab",
+   "message": "Fade category chip row edges where content scrolls off-screen (#94)",
+   "url": "https://github.com/idoodler/LabImporter/commit/30e37ab7173426aea18e5d5abfd3bc290877ae6f",
+   "date": "2026-10-14T19:49:59Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "84843fb",
+   "message": "Guard sample-data HistoryView previews behind #if DEBUG (#93)",
+   "url": "https://github.com/idoodler/LabImporter/commit/84843fb8aeb5917f3146c3495e5ab01b7da24047",
+   "date": "2026-10-11T20:00:19Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "8076dfc",
+   "message": "Consolidate onboarding opt-ins into single \"Extras\" screen (#92)",
+   "url": "https://github.com/idoodler/LabImporter/commit/8076dfcb77bcf86a0a5b166786983162b61a2c81",
+   "date": "2026-10-09T21:43:58Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "5274da7",
+   "message": "Unify navigation state across compact and regular layouts (#91)",
+   "url": "https://github.com/idoodler/LabImporter/commit/5274da70bbec66e4c8d507dfa858a1a4c13918d0",
+   "date": "2026-09-29T01:36:43Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "cd13f32",
+   "message": "Stop re-requesting HealthKit authorization on every CDA read (#90)",
+   "url": "https://github.com/idoodler/LabImporter/commit/cd13f3268cc4dce0c9872736220e752add86407f",
+   "date": "2026-09-15T02:22:13Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "be8114e",
+   "message": "Add Siri/Spotlight in-app search for tracked lab values (#89)",
+   "url": "https://github.com/idoodler/LabImporter/commit/be8114e8139e84fbdff9f327a866d8ccdde5ef62",
+   "date": "2026-09-15T01:48:28Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "c8a5cbd",
+   "message": "Stop Siri suggestions from also donating to Spotlight (#88)",
+   "url": "https://github.com/idoodler/LabImporter/commit/c8a5cbd0c377150bc6bb7b68b75c58738fde941a",
+   "date": "2026-09-14T21:26:33Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "f405e63",
+   "message": "Ask Siri capabilities during onboarding; fix mic icon contrast (#87)",
+   "url": "https://github.com/idoodler/LabImporter/commit/f405e6317977f23d746ef8bc283052c11e013f66",
+   "date": "2026-09-14T21:05:45Z"
+  },
+  {
    "repo": "idoodler/nightscout-plasmoid",
+   "sha": "6874abc",
    "message": "Add screenshots to README",
    "url": "https://github.com/idoodler/nightscout-plasmoid/commit/6874abc95aba6229c1dba732162b634c8b5f32e1",
    "date": "2026-08-24T04:57:31Z"
   },
   {
    "repo": "idoodler/nightscout-plasmoid",
+   "sha": "b93e42f",
    "message": "Initial commit of Nightscout Plasmoid",
    "url": "https://github.com/idoodler/nightscout-plasmoid/commit/b93e42ff0a10c280c45d5e89a9911d55e3c6bd47",
    "date": "2026-08-23T19:40:47Z"
   },
   {
+   "repo": "idoodler/LabImporter",
+   "sha": "4250662",
+   "message": "Fix Release archive build: extend #if DEBUG to cover all Dashboard previews (#84)",
+   "url": "https://github.com/idoodler/LabImporter/commit/425066292204be0b3b98d9fa5c0cf34c5ad7d2be",
+   "date": "2026-08-07T20:10:18Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "b5842c9",
+   "message": "Feature a hero card when the dashboard has only one tracked value (#83)",
+   "url": "https://github.com/idoodler/LabImporter/commit/b5842c934dd07e156abd51377a6ef13eab1282ee",
+   "date": "2026-08-01T13:37:57Z"
+  },
+  {
+   "repo": "idoodler/MMM-Loxone",
+   "sha": "476419f",
+   "message": "Add archived repository notice and new development link",
+   "url": "https://github.com/idoodler/MMM-Loxone/commit/476419f9fa6d7686fa5b092af57d3fc12ed30e6e",
+   "date": "2026-06-14T10:43:15Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "b61c8bb",
+   "message": "README: document the Spotlight search feature (#82)",
+   "url": "https://github.com/idoodler/LabImporter/commit/b61c8bb8adb62ae8eca2f8c9eb6df2d67ee03123",
+   "date": "2026-06-12T21:11:41Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "a8121d9",
+   "message": "Refresh README screenshots (#81)",
+   "url": "https://github.com/idoodler/LabImporter/commit/a8121d91c7327cc18326e50c2e01ebc105d7a815",
+   "date": "2026-06-12T21:06:59Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "fe6ce2d",
+   "message": "Rework import flow: streaming parse, cancellation, and a redesigned progress screen (#80)",
+   "url": "https://github.com/idoodler/LabImporter/commit/fe6ce2df1f72d8ba73fed94df34d67be7f0ab9e3",
+   "date": "2026-06-12T20:49:20Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "97dd363",
+   "message": "Fix trend scrub callout: Health-style readout that tracks the finger on all ranges (#79)",
+   "url": "https://github.com/idoodler/LabImporter/commit/97dd363fe8cf9d969c59bf58868d406d99a52862",
+   "date": "2026-06-12T19:11:56Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "df1cdc5",
+   "message": "Expose lab values to iOS Spotlight search with deep-linked detail (#78)",
+   "url": "https://github.com/idoodler/LabImporter/commit/df1cdc505314413224e3be021ad1cfc8772c4f0e",
+   "date": "2026-06-12T18:49:26Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "78a15c5",
+   "message": "Fix history toolbar buttons briefly disappearing on navigation (#77)",
+   "url": "https://github.com/idoodler/LabImporter/commit/78a15c519537743ddfddcfa121c1e4f08891b1b6",
+   "date": "2026-06-10T06:12:46Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "58f945a",
+   "message": "Add 12 EU languages (bg, ca, cs, da, el, fi, hr, hu, pt-PT, ro, sk, sv)",
+   "url": "https://github.com/idoodler/LabImporter/commit/58f945a5945e0950f99845192a8d70e213fabec6",
+   "date": "2026-06-07T14:30:24Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "44956b2",
+   "message": "Refresh README screenshots (English) + add PDF export screen",
+   "url": "https://github.com/idoodler/LabImporter/commit/44956b2e1e2e4c09d684ae234f12bc7ed1b46834",
+   "date": "2026-06-07T11:00:31Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "c40535d",
+   "message": "OCR: recognize app's current language instead of fixed de/en",
+   "url": "https://github.com/idoodler/LabImporter/commit/c40535de33e9b95c4e39247dc160aee098280db0",
+   "date": "2026-06-06T22:34:17Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "a0f1d11",
+   "message": "README: note PDF page-size options",
+   "url": "https://github.com/idoodler/LabImporter/commit/a0f1d11ec395839c3c17a74f8d58b54e1888efb9",
+   "date": "2026-06-06T22:19:10Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "265a79f",
+   "message": "Default PDF page format from device region",
+   "url": "https://github.com/idoodler/LabImporter/commit/265a79f8b0d8c6b01b85f0c54f2f37f79da4ebcf",
+   "date": "2026-06-06T22:17:41Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "606d886",
+   "message": "Support selectable page formats for PDF export",
+   "url": "https://github.com/idoodler/LabImporter/commit/606d886dd89cb17c0032adb7b25c8dff3a595538",
+   "date": "2026-06-06T22:15:50Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "64f288e",
+   "message": "README: add PDF export feature and flag emojis for languages",
+   "url": "https://github.com/idoodler/LabImporter/commit/64f288ed4849f81cd95a2b2abbfde7a9c0df980d",
+   "date": "2026-06-06T22:07:13Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "1a71542",
+   "message": "Note supported languages in README",
+   "url": "https://github.com/idoodler/LabImporter/commit/1a715425115f5d99fcf969e379589c41788d7d0b",
+   "date": "2026-06-06T22:06:15Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "0a1a3af",
+   "message": "Document requirement to translate all 13 shipped languages",
+   "url": "https://github.com/idoodler/LabImporter/commit/0a1a3afdc72762f566057f644be779ee26bc186c",
+   "date": "2026-06-06T22:05:02Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "7ab785f",
+   "message": "Localize PDF export strings into all shipped languages",
+   "url": "https://github.com/idoodler/LabImporter/commit/7ab785fee194e6127fd8cd01c7022bb99ebbbab2",
+   "date": "2026-06-06T22:04:13Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "0ea339c",
+   "message": "Add information-rich PDF export",
+   "url": "https://github.com/idoodler/LabImporter/commit/0ea339c225b615404b6cba29adc67a5bd27a4b30",
+   "date": "2026-06-06T21:50:29Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "28d5158",
+   "message": "Settings: full-width link rows + hide Report an Issue when issues disabled (#72)",
+   "url": "https://github.com/idoodler/LabImporter/commit/28d51587e9ae54e52fd639d02fd4455c5723a8c8",
+   "date": "2026-06-06T18:26:42Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "fcf17c8",
+   "message": "Add funding links section to Settings with FUNDING.yml support (#71)",
+   "url": "https://github.com/idoodler/LabImporter/commit/fcf17c85dc1407cf4b4f279f1685238768999796",
+   "date": "2026-06-06T15:36:56Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "8701365",
+   "message": "Add Ko-fi funding info (#70)",
+   "url": "https://github.com/idoodler/LabImporter/commit/8701365e3fc32060e943ac1d7c82fa98dd2394a6",
+   "date": "2026-06-06T12:03:41Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "97b199c",
+   "message": "Adopt Apple Term of Address inflection + personal Dashboard greeting (#65)",
+   "url": "https://github.com/idoodler/LabImporter/commit/97b199cf8055febbbd369c3a75e810867dbbf22f",
+   "date": "2026-06-04T19:19:36Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "55611f5",
+   "message": "Guard PreviewSampleData and all sample-data #Preview blocks behind #if DEBUG",
+   "url": "https://github.com/idoodler/LabImporter/commit/55611f5dbb311e172001240c6a375f6307421793",
+   "date": "2026-06-04T15:20:30Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "5f9a0d5",
+   "message": "Guard screenshot mode behind #if DEBUG",
+   "url": "https://github.com/idoodler/LabImporter/commit/5f9a0d53668cbdc734d36a3366158a9e35f69929",
+   "date": "2026-06-04T15:07:19Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "8e93c61",
+   "message": "Remove merged light/dark composite screenshots",
+   "url": "https://github.com/idoodler/LabImporter/commit/8e93c61e3594db0ea1ff998f5ac25eb9ffea9825",
+   "date": "2026-06-04T14:55:35Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "f27965b",
+   "message": "Use plain Markdown table for screenshots section",
+   "url": "https://github.com/idoodler/LabImporter/commit/f27965b1046b423a3ceb60c42e9100cda62e5444",
+   "date": "2026-06-04T14:52:57Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "399b51f",
+   "message": "Refine README screenshots: table layout, rounded corners, separate light/dark",
+   "url": "https://github.com/idoodler/LabImporter/commit/399b51fe2229db22936bd9b8c4ae4331e30193a7",
+   "date": "2026-06-04T14:51:41Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "b91c292",
+   "message": "Add README screenshots with light/dark mode composites (#64)",
+   "url": "https://github.com/idoodler/LabImporter/commit/b91c2926e9977793bedae780c7989ca1d632974c",
+   "date": "2026-06-04T14:38:29Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "a6d4af4",
+   "message": "Add user-defined reference ranges with out-of-range flagging (#63)",
+   "url": "https://github.com/idoodler/LabImporter/commit/a6d4af4f0e7d6403f5e5a57baccc0cffa39d8ac1",
+   "date": "2026-06-04T12:29:02Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "23dc9e8",
+   "message": "Disclose nickname iCloud sync + rename \"custom name\" to \"Nickname\" (#62)",
+   "url": "https://github.com/idoodler/LabImporter/commit/23dc9e89c977195662f4a6fef2554136386b1217",
+   "date": "2026-06-03T04:31:03Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "4c85fd4",
+   "message": "Remove Mac support from device requirement messaging (#61)",
+   "url": "https://github.com/idoodler/LabImporter/commit/4c85fd44bbd046b119b0e7df18395bf9daab6f52",
+   "date": "2026-06-02T21:34:14Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "3bac52c",
+   "message": "xCode updated localizations",
+   "url": "https://github.com/idoodler/LabImporter/commit/3bac52cba2e61f90440578aa5481dc043963e7e5",
+   "date": "2026-06-02T20:08:15Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "fe77511",
+   "message": "Auto-focus lab test search and restyle pickers + Add Value sheet (#57)",
+   "url": "https://github.com/idoodler/LabImporter/commit/fe77511dc85d6bb7f9e764838e523f408757f520",
+   "date": "2026-06-02T19:00:02Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "feac9ef",
+   "message": "Polish LOINC detail screen with category background and clearer custom name (#56)",
+   "url": "https://github.com/idoodler/LabImporter/commit/feac9efc95d28a0742edd8c860583b1c44026ce3",
+   "date": "2026-06-02T11:09:25Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "70be19e",
+   "message": "Match report detail menu button style to TrendView (no circle) (#55)",
+   "url": "https://github.com/idoodler/LabImporter/commit/70be19ed7396f93dc1910f0a046396c6b24a4654",
+   "date": "2026-06-02T10:11:46Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "61eac89",
+   "message": "Share a common license screen and read app license from LICENSE file (#52)",
+   "url": "https://github.com/idoodler/LabImporter/commit/61eac89f204ec99dfba17cdc84081083a371db52",
+   "date": "2026-06-02T05:14:59Z"
+  },
+  {
    "repo": "idoodler/plane-tracker",
+   "sha": "9034170",
    "message": "Create README.md",
    "url": "https://github.com/idoodler/plane-tracker/commit/9034170d5021bcf655e99e7d6f646ac7a846c8af",
    "date": "2026-04-12T11:39:52Z"
   },
   {
+   "repo": "idoodler/noise-generator",
+   "sha": "c3c86d5",
+   "message": "Update README with archive notice and link",
+   "url": "https://github.com/idoodler/noise-generator/commit/c3c86d56c038d25759be1ce060d40c1377528472",
+   "date": "2026-02-21T20:39:40Z"
+  },
+  {
    "repo": "idoodler/kotlin-noise-generator",
+   "sha": "366f935",
    "message": "addes support for base path",
    "url": "https://github.com/idoodler/kotlin-noise-generator/commit/366f9358802cf079d25fc0454cffedf75972070b",
    "date": "2026-02-21T18:31:52Z"
   },
   {
    "repo": "idoodler/kotlin-noise-generator",
+   "sha": "7d107f5",
    "message": "Fixed ci build",
    "url": "https://github.com/idoodler/kotlin-noise-generator/commit/7d107f5681f2db7e1ded780d7032bdbb39ba7dc3",
    "date": "2026-02-21T18:06:41Z"
   },
   {
    "repo": "idoodler/kotlin-noise-generator",
+   "sha": "a4ace24",
    "message": "Cleanup",
    "url": "https://github.com/idoodler/kotlin-noise-generator/commit/a4ace24e154eda4d438e60791ef7941a8d6f1e04",
    "date": "2026-02-21T18:03:36Z"
   },
   {
+   "repo": "idoodler/kotlin-noise-generator",
+   "sha": "c1755b6",
+   "message": "Simplified code",
+   "url": "https://github.com/idoodler/kotlin-noise-generator/commit/c1755b6f06bc1428035b1ad5169dbb515f70c2fc",
+   "date": "2026-02-21T17:50:30Z"
+  },
+  {
+   "repo": "idoodler/kotlin-noise-generator",
+   "sha": "336b43a",
+   "message": "Initial commit",
+   "url": "https://github.com/idoodler/kotlin-noise-generator/commit/336b43a1cfb0e14db0d8aeaa95846796471288c4",
+   "date": "2026-02-21T17:49:21Z"
+  },
+  {
    "repo": "idoodler/homebridge-loxone",
+   "sha": "077e607",
    "message": "Initial commit",
    "url": "https://github.com/idoodler/homebridge-loxone/commit/077e60784b56c89e4a8bb38abb2c4ab11f4a8c61",
    "date": "2025-07-08T05:25:35Z"
+  },
+  {
+   "repo": "idoodler/noise-generator",
+   "sha": "bd7b053",
+   "message": "Reduced min dimensions to 50",
+   "url": "https://github.com/idoodler/noise-generator/commit/bd7b053ea0f2198559b96bd7f6bc96e8613e0123",
+   "date": "2025-05-12T11:46:54Z"
+  },
+  {
+   "repo": "idoodler/noise-generator",
+   "sha": "422236a",
+   "message": "Remove unnecessary debug log in parameters processing",
+   "url": "https://github.com/idoodler/noise-generator/commit/422236a3f924e4b54dd639ea38a0da8cfb750895",
+   "date": "2025-03-19T10:35:19Z"
+  },
+  {
+   "repo": "idoodler/noise-generator",
+   "sha": "6a76d6c",
+   "message": "Update default port and add logging for digest params",
+   "url": "https://github.com/idoodler/noise-generator/commit/6a76d6c1ed8dd07636f74e134b66695dd6b783ae",
+   "date": "2025-03-19T10:18:34Z"
+  },
+  {
+   "repo": "idoodler/noise-generator",
+   "sha": "30f7b0a",
+   "message": "Update route handlers to use regex-based path matching",
+   "url": "https://github.com/idoodler/noise-generator/commit/30f7b0a549f93415f1fe2ab00a6cd3d5ef3f8ad2",
+   "date": "2025-03-17T06:49:16Z"
+  },
+  {
+   "repo": "idoodler/openrgb-loxone",
+   "sha": "f03301b",
+   "message": "Adopted node version",
+   "url": "https://github.com/idoodler/openrgb-loxone/commit/f03301be4e4d6da0a47e6fb3b9f77c084fe6eefb",
+   "date": "2023-05-21T08:42:01Z"
+  },
+  {
+   "repo": "idoodler/openrgb-loxone",
+   "sha": "cfee42d",
+   "message": "New docker destination",
+   "url": "https://github.com/idoodler/openrgb-loxone/commit/cfee42da2f7e9675a4e949edcf45945459cca5c6",
+   "date": "2023-05-21T08:33:00Z"
+  },
+  {
+   "repo": "idoodler/openrgb-loxone",
+   "sha": "0ce24e8",
+   "message": "added propper build system",
+   "url": "https://github.com/idoodler/openrgb-loxone/commit/0ce24e876badb2896a86db2d436e9fb294fef39e",
+   "date": "2023-05-21T08:29:54Z"
+  },
+  {
+   "repo": "idoodler/openrgb-loxone",
+   "sha": "6e2cde1",
+   "message": "updated Docker",
+   "url": "https://github.com/idoodler/openrgb-loxone/commit/6e2cde177c01e782752a494c99ce86df7ffd9a5b",
+   "date": "2023-02-02T21:35:52Z"
+  },
+  {
+   "repo": "idoodler/openrgb-loxone",
+   "sha": "e7e14c8",
+   "message": "Added Docker",
+   "url": "https://github.com/idoodler/openrgb-loxone/commit/e7e14c8016b2848eba82192a3bff323307c0ad95",
+   "date": "2023-02-02T20:47:23Z"
+  },
+  {
+   "repo": "idoodler/iOS15-GetUserMedia",
+   "sha": "53c941a",
+   "message": "Added project",
+   "url": "https://github.com/idoodler/iOS15-GetUserMedia/commit/53c941a23acaf6631cb0b6e4ec8be27b3862f61d",
+   "date": "2021-09-27T14:20:18Z"
+  },
+  {
+   "repo": "idoodler/MMM-Loxone",
+   "sha": "48960e4",
+   "message": "Dutch translation",
+   "url": "https://github.com/idoodler/MMM-Loxone/commit/48960e4a42e443bd0419d727f1713070cd149436",
+   "date": "2021-08-22T16:11:24Z"
+  },
+  {
+   "repo": "idoodler/MMM-Loxone",
+   "sha": "10243fe",
+   "message": "Updated Dependencies",
+   "url": "https://github.com/idoodler/MMM-Loxone/commit/10243fea4e67c999c74094a1e20fe0a1ca9585c1",
+   "date": "2020-04-19T13:26:29Z"
+  },
+  {
+   "repo": "idoodler/MMM-BalenaWatcher",
+   "sha": "e84a2ae",
+   "message": "Fixed some issues regarding automatic heal",
+   "url": "https://github.com/idoodler/MMM-BalenaWatcher/commit/e84a2aee9cf6b92f61a3d922ff08ebdcd69eb8bb",
+   "date": "2020-04-13T08:53:39Z"
+  },
+  {
+   "repo": "idoodler/MMM-BalenaWatcher",
+   "sha": "1f7f3d8",
+   "message": "Fixed issue with config detection",
+   "url": "https://github.com/idoodler/MMM-BalenaWatcher/commit/1f7f3d83a29661b70bf49d37d103ca18b862629c",
+   "date": "2020-03-21T09:21:15Z"
+  },
+  {
+   "repo": "idoodler/MMM-BalenaWatcher",
+   "sha": "79270d6",
+   "message": "Fixed crash!",
+   "url": "https://github.com/idoodler/MMM-BalenaWatcher/commit/79270d6fe278547448718907a5d5148e61f33a51",
+   "date": "2020-03-15T21:02:07Z"
+  },
+  {
+   "repo": "idoodler/MMM-Loxone",
+   "sha": "ad88521",
+   "message": "Used latest lxCommunicator",
+   "url": "https://github.com/idoodler/MMM-Loxone/commit/ad885214faf45a1982be8d82e75643c90331e1a3",
+   "date": "2020-03-15T20:59:27Z"
+  },
+  {
+   "repo": "idoodler/MMM-Loxone",
+   "sha": "e4836a8",
+   "message": "Removed \"vcgencmd\" due to compatibility issues with Raspbian Buster",
+   "url": "https://github.com/idoodler/MMM-Loxone/commit/e4836a88efca9b2396e89abd521a4c4c9cd4a880",
+   "date": "2020-02-09T09:04:55Z"
+  },
+  {
+   "repo": "idoodler/MMM-BalenaWatcher",
+   "sha": "257320f",
+   "message": "Initial commit",
+   "url": "https://github.com/idoodler/MMM-BalenaWatcher/commit/257320ffe4ff024fb397949becd815d7438f99cd",
+   "date": "2020-02-08T13:07:48Z"
+  },
+  {
+   "repo": "idoodler/MMM-RPI-LED",
+   "sha": "1b95ef9",
+   "message": "Added missing project files",
+   "url": "https://github.com/idoodler/MMM-RPI-LED/commit/1b95ef9d7c128bd192c303b6b58033f885627560",
+   "date": "2019-12-05T11:38:26Z"
+  },
+  {
+   "repo": "idoodler/MMM-RPI-LED",
+   "sha": "7235b12",
+   "message": "Added code quality badge",
+   "url": "https://github.com/idoodler/MMM-RPI-LED/commit/7235b12e254f2980b7377d9a85d0876bf899c107",
+   "date": "2019-12-05T11:37:57Z"
+  },
+  {
+   "repo": "idoodler/MMM-ENV-Provider",
+   "sha": "fda3a6c",
+   "message": "Added Code quality badge",
+   "url": "https://github.com/idoodler/MMM-ENV-Provider/commit/fda3a6c439edcafeaf8c4b18f44fd516da6efb39",
+   "date": "2019-12-05T11:33:44Z"
+  },
+  {
+   "repo": "idoodler/MMM-ENV-Provider",
+   "sha": "f080a1d",
+   "message": "Fixed logger",
+   "url": "https://github.com/idoodler/MMM-ENV-Provider/commit/f080a1d47efc5b6c2c27522ae8b952e1ff07a722",
+   "date": "2019-11-17T20:13:49Z"
+  },
+  {
+   "repo": "idoodler/MMM-ENV-Provider",
+   "sha": "910fa68",
+   "message": "Added logger",
+   "url": "https://github.com/idoodler/MMM-ENV-Provider/commit/910fa6873d6f7e728cefd7bade56799a810cf99c",
+   "date": "2019-11-17T19:24:43Z"
+  },
+  {
+   "repo": "idoodler/MMM-ENV-Provider",
+   "sha": "65329f5",
+   "message": "Adopted name",
+   "url": "https://github.com/idoodler/MMM-ENV-Provider/commit/65329f5a3169c0d76dff0dfa3eb711cd577e7f87",
+   "date": "2019-11-17T19:24:31Z"
+  },
+  {
+   "repo": "idoodler/balena-MagicMirror",
+   "sha": "0ba5a29",
+   "message": "Replaced healthcheck with command again, it won't work for some reason...",
+   "url": "https://github.com/idoodler/balena-MagicMirror/commit/0ba5a295a1acec9247e18bfaa3345f30c2d3a7d1",
+   "date": "2019-07-26T12:41:04Z"
+  },
+  {
+   "repo": "idoodler/balena-MagicMirror",
+   "sha": "8f7156f",
+   "message": "Added --unsafe-perm option to npm i",
+   "url": "https://github.com/idoodler/balena-MagicMirror/commit/8f7156fe5531c26acd9b39239e363305e43c649f",
+   "date": "2019-07-24T23:38:18Z"
+  },
+  {
+   "repo": "idoodler/balena-MagicMirror",
+   "sha": "c97dace",
+   "message": "Utilizing healthcheck",
+   "url": "https://github.com/idoodler/balena-MagicMirror/commit/c97dacedcbac969e05bf8d6bf3f7656523fc76cd",
+   "date": "2019-07-24T18:26:17Z"
+  },
+  {
+   "repo": "idoodler/MMM-ENV-Provider",
+   "sha": "7d62f80",
+   "message": "Updated Readme",
+   "url": "https://github.com/idoodler/MMM-ENV-Provider/commit/7d62f8030129b8cf082da75d951095b046630bf7",
+   "date": "2019-07-22T23:16:31Z"
+  },
+  {
+   "repo": "idoodler/balena-MagicMirror",
+   "sha": "1b8a6d0",
+   "message": "Renamed service mm to MagicMirror",
+   "url": "https://github.com/idoodler/balena-MagicMirror/commit/1b8a6d055a093363aaa954ab1ce7a334ad66db44",
+   "date": "2019-07-21T13:39:08Z"
+  },
+  {
+   "repo": "idoodler/balena-MagicMirror",
+   "sha": "4df50d4",
+   "message": "Added Raspberry Pi Requirement",
+   "url": "https://github.com/idoodler/balena-MagicMirror/commit/4df50d4fbca7f08602775cab07dce826dd1c62cf",
+   "date": "2019-07-21T08:47:26Z"
+  },
+  {
+   "repo": "idoodler/MMM-RPI-LED",
+   "sha": "62fe80f",
+   "message": "Initial commit",
+   "url": "https://github.com/idoodler/MMM-RPI-LED/commit/62fe80f70fc75c241f6c7eb5e411090182f1ab75",
+   "date": "2018-05-21T20:27:17Z"
+  },
+  {
+   "repo": "idoodler/ZeroAPS",
+   "sha": "571818b",
+   "message": "Update README.md",
+   "url": "https://github.com/idoodler/ZeroAPS/commit/571818be9947f880aa57e25b21c1f150c0426629",
+   "date": "2017-12-30T09:28:48Z"
+  },
+  {
+   "repo": "idoodler/SBNotification",
+   "sha": "ca75a9f",
+   "message": "Added GIF",
+   "url": "https://github.com/idoodler/SBNotification/commit/ca75a9f56b16068e8538ee9637549df97f81d337",
+   "date": "2017-02-18T15:43:58Z"
+  },
+  {
+   "repo": "idoodler/SBNotification",
+   "sha": "1bbb1bd",
+   "message": "Update README.md",
+   "url": "https://github.com/idoodler/SBNotification/commit/1bbb1bd16b11268a79d48b17e95897e41b61b539",
+   "date": "2017-02-18T15:35:28Z"
+  },
+  {
+   "repo": "idoodler/SBNotification",
+   "sha": "2441456",
+   "message": "Create README.md",
+   "url": "https://github.com/idoodler/SBNotification/commit/244145672d4ec0f8fc1b9de549bfcb2c3ca031ad",
+   "date": "2017-02-18T15:31:45Z"
+  },
+  {
+   "repo": "idoodler/ZeroAPS",
+   "sha": "742a64e",
+   "message": "Add files via upload",
+   "url": "https://github.com/idoodler/ZeroAPS/commit/742a64e98d07c94bee41f21eb734bcfa43703333",
+   "date": "2016-07-03T18:46:42Z"
+  },
+  {
+   "repo": "idoodler/ZeroAPS",
+   "sha": "871196f",
+   "message": "Delete ZeroPi_top.JPG",
+   "url": "https://github.com/idoodler/ZeroAPS/commit/871196f8013fed53b4d85ab1e1f601912b2dedcb",
+   "date": "2016-07-03T18:45:07Z"
+  },
+  {
+   "repo": "idoodler/ZeroAPS",
+   "sha": "2e017d5",
+   "message": "Delete ZeroAPS_PowerBoost.JPG",
+   "url": "https://github.com/idoodler/ZeroAPS/commit/2e017d5b689ca7b5f1d601f99acdf2ae838c2f04",
+   "date": "2016-07-03T12:38:19Z"
+  },
+  {
+   "repo": "idoodler/ZeroAPS",
+   "sha": "85fb67a",
+   "message": "Delete srf footprint.png",
+   "url": "https://github.com/idoodler/ZeroAPS/commit/85fb67ae775933b35cdb48543897376af10b9804",
+   "date": "2016-07-02T22:20:20Z"
+  },
+  {
+   "repo": "idoodler/Fily-Issues",
+   "sha": "9b86765",
+   "message": "Update README.md",
+   "url": "https://github.com/idoodler/Fily-Issues/commit/9b86765a9dc63e7582b6ff4102396985ccd6fea6",
+   "date": "2015-10-11T07:41:39Z"
+  },
+  {
+   "repo": "idoodler/Fily-Issues",
+   "sha": "3394a2f",
+   "message": "Delete Changelog.md",
+   "url": "https://github.com/idoodler/Fily-Issues/commit/3394a2fb05880addfc997dfc282ca38bb1a6250e",
+   "date": "2015-10-10T23:20:29Z"
+  },
+  {
+   "repo": "idoodler/Fily-Issues",
+   "sha": "f62baad",
+   "message": "Create Changelog.md",
+   "url": "https://github.com/idoodler/Fily-Issues/commit/f62baaddf9fd12f5258c08ab2ff4c062597b8735",
+   "date": "2015-10-10T23:17:41Z"
+  },
+  {
+   "repo": "idoodler/Fily-Issues",
+   "sha": "745e519",
+   "message": "Initial commit",
+   "url": "https://github.com/idoodler/Fily-Issues/commit/745e51948bacde182eb8cadbb1816ccec5f00739",
+   "date": "2015-10-10T23:02:32Z"
+  },
+  {
+   "repo": "idoodler/POEditor",
+   "sha": "076e80a",
+   "message": "Update POEditor.m",
+   "url": "https://github.com/idoodler/POEditor/commit/076e80af7977decfe4b86e6579096797df46d812",
+   "date": "2015-02-27T17:48:16Z"
+  },
+  {
+   "repo": "idoodler/POEditor",
+   "sha": "f330434",
+   "message": "Update POEditor.h",
+   "url": "https://github.com/idoodler/POEditor/commit/f3304342d43b63aff25f70bf562ac6f27808544f",
+   "date": "2015-02-27T17:45:34Z"
+  },
+  {
+   "repo": "idoodler/POEditor",
+   "sha": "000023a",
+   "message": "Update README.md",
+   "url": "https://github.com/idoodler/POEditor/commit/000023af1e2933c475c8aea3d5b10b956e621e26",
+   "date": "2014-04-22T13:22:02Z"
+  },
+  {
+   "repo": "idoodler/POEditor",
+   "sha": "88b7fda",
+   "message": "Create POEditor.m",
+   "url": "https://github.com/idoodler/POEditor/commit/88b7fda18144e70446a509675928ee1d1349db9c",
+   "date": "2014-04-21T22:08:56Z"
+  },
+  {
+   "repo": "idoodler/POEditor",
+   "sha": "9fa4b7c",
+   "message": "Create POEditor.h",
+   "url": "https://github.com/idoodler/POEditor/commit/9fa4b7ce504d2cca31d021a2cb189c2d596f0eeb",
+   "date": "2014-04-21T22:08:34Z"
   }
  ]
 }
