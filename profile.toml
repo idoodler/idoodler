@@ -1,0 +1,29 @@
+# The only hand-written content of the profile. Everything else comes from GitHub data.
+# Edit here: github.com/idoodler and idoodler.de both update from this repo.
+
+interests = [
+  "Always building fun projects",
+  "Smart Home",
+  "Apple by day",
+  "Linux by heart",
+]
+
+[[socials]]
+name = "Mastodon"
+url = "https://techhub.social/@idoodler"
+
+[[socials]]
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/david-g%C3%B6lzh%C3%A4user-9112491b7"
+
+[[socials]]
+name = "Instagram"
+url = "https://instagram.com/idoodler"
+
+[[socials]]
+name = "Reddit"
+url = "https://reddit.com/user/idoodler"
+
+[[socials]]
+name = "Stack Overflow"
+url = "https://stackoverflow.com/users/1766321"
