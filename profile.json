@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T07:23:35Z",
+ "generated_at": "2026-11-08T15:14:24Z",
  "user": {
   "login": "idoodler",
   "name": "David Gölzhäuser",
@@ -1879,7 +1879,7 @@
   },
   {
    "name": "QML",
-   "share": 0.228,
+   "share": 0.229,
    "color": "#44a51c"
   },
   {
@@ -1894,7 +1894,7 @@
   },
   {
    "name": "Swift",
-   "share": 0.107,
+   "share": 0.106,
    "color": "#f05138"
   },
   {
