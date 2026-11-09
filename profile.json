@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T06:35:01Z",
+ "generated_at": "2026-11-09T17:32:10Z",
  "user": {
   "login": "idoodler",
   "name": "David Gölzhäuser",
@@ -9,7 +9,7 @@
   "company": "Loxone Electronics GmbH",
   "location": "Germany",
   "followers": 33,
-  "public_repos": 44,
+  "public_repos": 45,
   "created_at": "2014-03-01T15:13:50Z"
  },
  "interests": [
@@ -1879,46 +1879,84 @@
  "languages": [
   {
    "name": "Kotlin",
-   "share": 0.343,
+   "share": 0.27,
    "color": "#a97bff"
   },
   {
    "name": "QML",
-   "share": 0.228,
+   "share": 0.18,
    "color": "#44a51c"
   },
   {
    "name": "JavaScript",
-   "share": 0.137,
+   "share": 0.108,
    "color": "#f1e05a"
   },
   {
+   "name": "Python",
+   "share": 0.107,
+   "color": "#3572a5"
+  },
+  {
    "name": "TypeScript",
-   "share": 0.134,
+   "share": 0.106,
    "color": "#3178c6"
   },
   {
-   "name": "Swift",
-   "share": 0.107,
-   "color": "#f05138"
-  },
-  {
-   "name": "Shell",
-   "share": 0.014,
-   "color": "#89e051"
-  },
-  {
    "name": "HTML",
-   "share": 0.014,
+   "share": 0.095,
    "color": "#e34c26"
   },
   {
-   "name": "Objective-C",
-   "share": 0.013,
-   "color": "#438eff"
+   "name": "Swift",
+   "share": 0.084,
+   "color": "#f05138"
+  },
+  {
+   "name": "OpenSCAD",
+   "share": 0.024,
+   "color": "#8b949e"
+  },
+  {
+   "name": "Shell",
+   "share": 0.012,
+   "color": "#89e051"
   }
  ],
  "projects": [
+  {
+   "name": "robo-garage",
+   "full_name": "idoodler/robo-garage",
+   "owner": "idoodler",
+   "url": "https://github.com/idoodler/robo-garage",
+   "homepage": null,
+   "description": null,
+   "language": "Python",
+   "color": "#3572a5",
+   "languages": [
+    {
+     "name": "Python",
+     "share": 0.485,
+     "color": "#3572a5"
+    },
+    {
+     "name": "HTML",
+     "share": 0.396,
+     "color": "#e34c26"
+    },
+    {
+     "name": "OpenSCAD",
+     "share": 0.113,
+     "color": "#8b949e"
+    }
+   ],
+   "topics": [],
+   "stars": 0,
+   "forks": 0,
+   "archived": false,
+   "created_at": "2026-11-01T13:23:35Z",
+   "pushed_at": "2026-11-09T15:26:08Z"
+  },
   {
    "name": "LabImporter",
    "full_name": "idoodler/LabImporter",
@@ -2347,6 +2385,55 @@
   }
  ],
  "commits": [
+  {
+   "repo": "idoodler/robo-garage",
+   "sha": "e315f5f",
+   "message": "Parallel lift: drill template on A4 paper instead of a print",
+   "url": "https://github.com/idoodler/robo-garage/commit/e315f5f8de17682c7f2920ea23cffeadaa28cd0f",
+   "date": "2026-11-08T13:24:02Z"
+  },
+  {
+   "repo": "idoodler/robo-garage",
+   "sha": "fb9f234",
+   "message": "Simulator: door files, pictures and side view rebuilt for doors v2.2",
+   "url": "https://github.com/idoodler/robo-garage/commit/fb9f234aa282e733f661971895a7fc5b3fa2c588",
+   "date": "2026-11-08T12:38:38Z"
+  },
+  {
+   "repo": "idoodler/robo-garage",
+   "sha": "27e7c2d",
+   "message": "Doors v2.2: lighter, stronger print-in-place hinges, strength check",
+   "url": "https://github.com/idoodler/robo-garage/commit/27e7c2d608e9eabd8eff01532d1b60a3a3694b0d",
+   "date": "2026-11-08T12:38:38Z"
+  },
+  {
+   "repo": "idoodler/robo-garage",
+   "sha": "7a298f6",
+   "message": "Doors guide: glue the door flanges, add a physical test before fitting",
+   "url": "https://github.com/idoodler/robo-garage/commit/7a298f631bdf3395d57a62ad8ecf71c1d6ce0623",
+   "date": "2026-11-07T15:37:46Z"
+  },
+  {
+   "repo": "idoodler/robo-garage",
+   "sha": "b4f0f17",
+   "message": "Doors v2.1: stronger, lighter print-in-place hinges",
+   "url": "https://github.com/idoodler/robo-garage/commit/b4f0f17d794f281cf653731110146653320dff51",
+   "date": "2026-11-07T15:35:09Z"
+  },
+  {
+   "repo": "idoodler/robo-garage",
+   "sha": "bf8627f",
+   "message": "Change device_class from garage to damper",
+   "url": "https://github.com/idoodler/robo-garage/commit/bf8627fd1c290fc9f98c029fc9f5de7f36acc346",
+   "date": "2026-11-06T17:05:51Z"
+  },
+  {
+   "repo": "idoodler/robo-garage",
+   "sha": "d649128",
+   "message": "PCB v1.2, case v1.2, simulator v5.2: leak probe, valve output, buzzer, 12 V monitor, JLC-assembled clamps",
+   "url": "https://github.com/idoodler/robo-garage/commit/d6491283f443e2d4b19496b1190b7574b3bd2ab2",
+   "date": "2026-11-03T10:19:55Z"
+  },
   {
    "repo": "idoodler/LabImporter",
    "sha": "586f081",

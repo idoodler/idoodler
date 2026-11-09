@@ -6,30 +6,33 @@ Always building fun projects · Smart Home · Apple by day · Linux by heart
 
 [Mastodon](https://techhub.social/@idoodler) · [LinkedIn](https://www.linkedin.com/in/david-g%C3%B6lzh%C3%A4user-9112491b7) · [Instagram](https://instagram.com/idoodler) · [Reddit](https://reddit.com/user/idoodler) · [Stack Overflow](https://stackoverflow.com/users/1766321)
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg"><img src="assets/stats-light.svg" alt="715 contributions (12 mo), 44 public repositories, 81 stars, 33 followers" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg"><img src="assets/stats-light.svg" alt="715 contributions (12 mo), 45 public repositories, 81 stars, 33 followers" width="100%"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg"><img src="assets/activity-light.svg" alt="715 contributions in the last 12 months" width="100%"></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg"><img src="assets/languages-light.svg" alt="Languages lately: Kotlin 34%, QML 23%, JavaScript 14%, TypeScript 13%, Swift 11%, Shell 1%, HTML 1%, Objective-C 1%" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg"><img src="assets/languages-light.svg" alt="Languages lately: Kotlin 27%, QML 18%, JavaScript 11%, Python 11%, TypeScript 11%, HTML 10%, Swift 8%, OpenSCAD 2%, Shell 1%" width="100%"></picture>
 
 ### Recently active projects
 
 <p>
-<a href="https://github.com/idoodler/LabImporter"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-0-dark.svg"><img src="assets/project-0-light.svg" alt="LabImporter" width="32%"></picture></a>
-<a href="https://github.com/idoodler/nightscout-plasmoid"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-1-dark.svg"><img src="assets/project-1-light.svg" alt="nightscout-plasmoid" width="32%"></picture></a>
-<a href="https://github.com/idoodler/plane-tracker"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-2-dark.svg"><img src="assets/project-2-light.svg" alt="plane-tracker" width="32%"></picture></a>
-<a href="https://github.com/idoodler/kotlin-noise-generator"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-3-dark.svg"><img src="assets/project-3-light.svg" alt="kotlin-noise-generator" width="32%"></picture></a>
-<a href="https://github.com/idoodler/homebridge-loxone"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-4-dark.svg"><img src="assets/project-4-light.svg" alt="homebridge-loxone" width="32%"></picture></a>
-<a href="https://github.com/idoodler/openrgb-loxone"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-5-dark.svg"><img src="assets/project-5-light.svg" alt="openrgb-loxone" width="32%"></picture></a>
-<a href="https://github.com/idoodler/MMM-RPI-LED"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-6-dark.svg"><img src="assets/project-6-light.svg" alt="MMM-RPI-LED: Control the build in LEDs of your Raspberry Pi" width="32%"></picture></a>
-<a href="https://github.com/idoodler/iOS15-GetUserMedia"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-7-dark.svg"><img src="assets/project-7-light.svg" alt="iOS15-GetUserMedia" width="32%"></picture></a>
-<a href="https://github.com/idoodler/MMM-BalenaWatcher"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-8-dark.svg"><img src="assets/project-8-light.svg" alt="MMM-BalenaWatcher" width="32%"></picture></a>
+<a href="https://github.com/idoodler/robo-garage"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-0-dark.svg"><img src="assets/project-0-light.svg" alt="robo-garage" width="32%"></picture></a>
+<a href="https://github.com/idoodler/LabImporter"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-1-dark.svg"><img src="assets/project-1-light.svg" alt="LabImporter" width="32%"></picture></a>
+<a href="https://github.com/idoodler/nightscout-plasmoid"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-2-dark.svg"><img src="assets/project-2-light.svg" alt="nightscout-plasmoid" width="32%"></picture></a>
+<a href="https://github.com/idoodler/plane-tracker"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-3-dark.svg"><img src="assets/project-3-light.svg" alt="plane-tracker" width="32%"></picture></a>
+<a href="https://github.com/idoodler/kotlin-noise-generator"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-4-dark.svg"><img src="assets/project-4-light.svg" alt="kotlin-noise-generator" width="32%"></picture></a>
+<a href="https://github.com/idoodler/homebridge-loxone"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-5-dark.svg"><img src="assets/project-5-light.svg" alt="homebridge-loxone" width="32%"></picture></a>
+<a href="https://github.com/idoodler/openrgb-loxone"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-6-dark.svg"><img src="assets/project-6-light.svg" alt="openrgb-loxone" width="32%"></picture></a>
+<a href="https://github.com/idoodler/MMM-RPI-LED"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-7-dark.svg"><img src="assets/project-7-light.svg" alt="MMM-RPI-LED: Control the build in LEDs of your Raspberry Pi" width="32%"></picture></a>
+<a href="https://github.com/idoodler/iOS15-GetUserMedia"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-8-dark.svg"><img src="assets/project-8-light.svg" alt="iOS15-GetUserMedia" width="32%"></picture></a>
 </p>
 
 [All repositories →](https://github.com/idoodler?tab=repositories)
 
 ### Latest commits
 
+- [Parallel lift: drill template on A4 paper instead of a print](https://github.com/idoodler/robo-garage/commit/e315f5f8de17682c7f2920ea23cffeadaa28cd0f) · robo-garage · 8 Nov 2026
+- [Simulator: door files, pictures and side view rebuilt for doors v2.2](https://github.com/idoodler/robo-garage/commit/fb9f234aa282e733f661971895a7fc5b3fa2c588) · robo-garage · 8 Nov 2026
+- [Doors v2.2: lighter, stronger print-in-place hinges, strength check](https://github.com/idoodler/robo-garage/commit/27e7c2d608e9eabd8eff01532d1b60a3a3694b0d) · robo-garage · 8 Nov 2026
 - [Compile the qualitative row previews in debug builds only](https://github.com/idoodler/LabImporter/commit/586f081dc06028a921da366def3a734581da1a70) · LabImporter · 31 Oct 2026
 - [Add end-to-end tests on the simulator and in Robolectric](https://github.com/idoodler/LabImporter/commit/defd150b84194a6227494bfc130934e6839da8c2) · LabImporter · 31 Oct 2026
 - [Keep the trend screen open for results that aren't numbers](https://github.com/idoodler/LabImporter/commit/64e9b33ebb376ab8914bdd6c9415c15eb2aade45) · LabImporter · 31 Oct 2026
@@ -37,6 +40,3 @@ Always building fun projects · Smart Home · Apple by day · Linux by heart
 - [Initial commit of Nightscout Plasmoid](https://github.com/idoodler/nightscout-plasmoid/commit/b93e42ff0a10c280c45d5e89a9911d55e3c6bd47) · nightscout-plasmoid · 23 Aug 2026
 - [Create README.md](https://github.com/idoodler/plane-tracker/commit/9034170d5021bcf655e99e7d6f646ac7a846c8af) · plane-tracker · 12 Apr 2026
 - [addes support for base path](https://github.com/idoodler/kotlin-noise-generator/commit/366f9358802cf079d25fc0454cffedf75972070b) · kotlin-noise-generator · 21 Feb 2026
-- [Fixed ci build](https://github.com/idoodler/kotlin-noise-generator/commit/7d107f5681f2db7e1ded780d7032bdbb39ba7dc3) · kotlin-noise-generator · 21 Feb 2026
-- [Cleanup](https://github.com/idoodler/kotlin-noise-generator/commit/a4ace24e154eda4d438e60791ef7941a8d6f1e04) · kotlin-noise-generator · 21 Feb 2026
-- [Initial commit](https://github.com/idoodler/homebridge-loxone/commit/077e60784b56c89e4a8bb38abb2c4ab11f4a8c61) · homebridge-loxone · 8 Jul 2025
