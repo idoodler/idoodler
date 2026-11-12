@@ -6,11 +6,11 @@ Always building fun projects · Smart Home · Apple by day · Linux by heart
 
 [Mastodon](https://techhub.social/@idoodler) · [LinkedIn](https://www.linkedin.com/in/david-g%C3%B6lzh%C3%A4user-9112491b7) · [Instagram](https://instagram.com/idoodler) · [Reddit](https://reddit.com/user/idoodler) · [Stack Overflow](https://stackoverflow.com/users/1766321)
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg"><img src="assets/stats-light.svg" alt="717 contributions (12 mo), 45 public repositories, 81 stars, 33 followers" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg"><img src="assets/stats-light.svg" alt="717 contributions (12 mo), 45 public repositories, 82 stars, 33 followers" width="100%"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg"><img src="assets/activity-light.svg" alt="717 contributions in the last 12 months" width="100%"></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg"><img src="assets/languages-light.svg" alt="Languages lately: Kotlin 27%, QML 18%, JavaScript 11%, Python 11%, TypeScript 11%, HTML 9%, Swift 8%, OpenSCAD 2%, Shell 1%" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg"><img src="assets/languages-light.svg" alt="Languages lately: Kotlin 27%, QML 18%, JavaScript 11%, Python 11%, TypeScript 11%, HTML 10%, Swift 8%, OpenSCAD 2%, Shell 1%" width="100%"></picture>
 
 ### Recently active projects
 
