@@ -10,13 +10,13 @@ Always building fun projects · Smart Home · Apple by day · Linux by heart
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg"><img src="assets/activity-light.svg" alt="717 contributions in the last 12 months" width="100%"></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg"><img src="assets/languages-light.svg" alt="Languages lately: Kotlin 27%, QML 18%, JavaScript 11%, Python 11%, TypeScript 11%, HTML 10%, Swift 8%, OpenSCAD 2%, Shell 1%" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg"><img src="assets/languages-light.svg" alt="Languages lately: Kotlin 27%, QML 18%, JavaScript 11%, Python 11%, TypeScript 11%, HTML 9%, Swift 8%, OpenSCAD 2%, Shell 1%" width="100%"></picture>
 
 ### Recently active projects
 
 <p>
-<a href="https://github.com/idoodler/robo-garage"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-0-dark.svg"><img src="assets/project-0-light.svg" alt="robo-garage" width="32%"></picture></a>
-<a href="https://github.com/idoodler/LabImporter"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-1-dark.svg"><img src="assets/project-1-light.svg" alt="LabImporter" width="32%"></picture></a>
+<a href="https://github.com/idoodler/LabImporter"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-0-dark.svg"><img src="assets/project-0-light.svg" alt="LabImporter" width="32%"></picture></a>
+<a href="https://github.com/idoodler/robo-garage"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-1-dark.svg"><img src="assets/project-1-light.svg" alt="robo-garage" width="32%"></picture></a>
 <a href="https://github.com/idoodler/nightscout-plasmoid"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-2-dark.svg"><img src="assets/project-2-light.svg" alt="nightscout-plasmoid" width="32%"></picture></a>
 <a href="https://github.com/idoodler/plane-tracker"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-3-dark.svg"><img src="assets/project-3-light.svg" alt="plane-tracker" width="32%"></picture></a>
 <a href="https://github.com/idoodler/kotlin-noise-generator"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-4-dark.svg"><img src="assets/project-4-light.svg" alt="kotlin-noise-generator" width="32%"></picture></a>
