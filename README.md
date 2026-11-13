@@ -6,11 +6,11 @@ Always building fun projects · Smart Home · Apple by day · Linux by heart
 
 [Mastodon](https://techhub.social/@idoodler) · [LinkedIn](https://www.linkedin.com/in/david-g%C3%B6lzh%C3%A4user-9112491b7) · [Instagram](https://instagram.com/idoodler) · [Reddit](https://reddit.com/user/idoodler) · [Stack Overflow](https://stackoverflow.com/users/1766321)
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg"><img src="assets/stats-light.svg" alt="717 contributions (12 mo), 45 public repositories, 82 stars, 33 followers" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg"><img src="assets/stats-light.svg" alt="750 contributions (12 mo), 45 public repositories, 82 stars, 33 followers" width="100%"></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg"><img src="assets/activity-light.svg" alt="717 contributions in the last 12 months" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg"><img src="assets/activity-light.svg" alt="750 contributions in the last 12 months" width="100%"></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg"><img src="assets/languages-light.svg" alt="Languages lately: Kotlin 27%, QML 18%, JavaScript 11%, Python 11%, TypeScript 11%, HTML 9%, Swift 8%, OpenSCAD 2%, Shell 1%" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg"><img src="assets/languages-light.svg" alt="Languages lately: Kotlin 27%, QML 18%, JavaScript 11%, Python 11%, TypeScript 11%, HTML 10%, Swift 8%, OpenSCAD 2%, Shell 1%" width="100%"></picture>
 
 ### Recently active projects
 
@@ -30,12 +30,12 @@ Always building fun projects · Smart Home · Apple by day · Linux by heart
 
 ### Latest commits
 
-- [Parallel lift: drill template on A4 paper instead of a print](https://github.com/idoodler/robo-garage/commit/e315f5f8de17682c7f2920ea23cffeadaa28cd0f) · robo-garage · 8 Nov 2026
-- [Simulator: door files, pictures and side view rebuilt for doors v2.2](https://github.com/idoodler/robo-garage/commit/fb9f234aa282e733f661971895a7fc5b3fa2c588) · robo-garage · 8 Nov 2026
-- [Doors v2.2: lighter, stronger print-in-place hinges, strength check](https://github.com/idoodler/robo-garage/commit/27e7c2d608e9eabd8eff01532d1b60a3a3694b0d) · robo-garage · 8 Nov 2026
-- [Compile the qualitative row previews in debug builds only](https://github.com/idoodler/LabImporter/commit/586f081dc06028a921da366def3a734581da1a70) · LabImporter · 31 Oct 2026
-- [Add end-to-end tests on the simulator and in Robolectric](https://github.com/idoodler/LabImporter/commit/defd150b84194a6227494bfc130934e6839da8c2) · LabImporter · 31 Oct 2026
-- [Keep the trend screen open for results that aren't numbers](https://github.com/idoodler/LabImporter/commit/64e9b33ebb376ab8914bdd6c9415c15eb2aade45) · LabImporter · 31 Oct 2026
+- [Blueprint: take over the Dreame Live Activities (job progress + problems), motor fault = door not open](https://github.com/idoodler/robo-garage/commit/4f9303178fb9afa321f0bb139527bd656289c3b2) · robo-garage · 13 Nov 2026
+- [Blueprint: iOS Live Activities, rear fan drying run after parking](https://github.com/idoodler/robo-garage/commit/d827fe06e7fb2a4662317390c48fe8b914af33c2) · robo-garage · 13 Nov 2026
+- [Home Assistant blueprint: door follows the robot vacuum, clean button, ring, messages](https://github.com/idoodler/robo-garage/commit/d5ff59bf0de826fe002c913992c54be964f08001) · robo-garage · 13 Nov 2026
+- [Scorecard: 3 of 3 consecutive runs green at 1c4d4d1](https://github.com/idoodler/LabImporter/commit/2dfbfac73e0f28b63b0b8d8452bc5fd03dea2ed6) · LabImporter · 13 Nov 2026
+- [Make the evidence honest, and catch values read from another date column](https://github.com/idoodler/LabImporter/commit/1c4d4d1e43ff20a073d0d2bc8ab5a7e011de0019) · LabImporter · 13 Nov 2026
+- [Scorecard: 3 of 3 consecutive runs green at 751d6a4](https://github.com/idoodler/LabImporter/commit/d0f0c2727421afde199d1ef7cbcc59abc032ae16) · LabImporter · 13 Nov 2026
 - [Add screenshots to README](https://github.com/idoodler/nightscout-plasmoid/commit/6874abc95aba6229c1dba732162b634c8b5f32e1) · nightscout-plasmoid · 24 Aug 2026
 - [Initial commit of Nightscout Plasmoid](https://github.com/idoodler/nightscout-plasmoid/commit/b93e42ff0a10c280c45d5e89a9911d55e3c6bd47) · nightscout-plasmoid · 23 Aug 2026
 - [Create README.md](https://github.com/idoodler/plane-tracker/commit/9034170d5021bcf655e99e7d6f646ac7a846c8af) · plane-tracker · 12 Apr 2026

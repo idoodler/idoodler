@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T08:00:13Z",
+ "generated_at": "2026-11-13T16:27:27Z",
  "user": {
   "login": "idoodler",
   "name": "David Gölzhäuser",
@@ -42,7 +42,7 @@
  ],
  "stars": 82,
  "contributions": {
-  "total": 717,
+  "total": 750,
   "days": [
    {
     "date": "2025-11-09",
@@ -1862,27 +1862,27 @@
    {
     "date": "2026-11-07",
     "level": 1,
-    "count": 3
+    "count": 5
    },
    {
     "date": "2026-11-08",
     "level": 1,
-    "count": 4
+    "count": 8
    },
    {
     "date": "2026-11-09",
     "level": 1,
-    "count": 2
+    "count": 7
    },
    {
     "date": "2026-11-10",
-    "level": 0,
-    "count": 0
+    "level": 1,
+    "count": 3
    },
    {
     "date": "2026-11-11",
-    "level": 0,
-    "count": 0
+    "level": 1,
+    "count": 1
    },
    {
     "date": "2026-11-12",
@@ -1891,8 +1891,8 @@
    },
    {
     "date": "2026-11-13",
-    "level": 0,
-    "count": 0
+    "level": 2,
+    "count": 18
    }
   ]
  },
@@ -1924,7 +1924,7 @@
   },
   {
    "name": "HTML",
-   "share": 0.094,
+   "share": 0.095,
    "color": "#e34c26"
   },
   {
@@ -1980,7 +1980,7 @@
    "forks": 12,
    "archived": false,
    "created_at": "2026-05-27T06:54:20Z",
-   "pushed_at": "2026-11-13T06:48:28Z"
+   "pushed_at": "2026-11-13T15:59:18Z"
   },
   {
    "name": "robo-garage",
@@ -2013,7 +2013,7 @@
    "forks": 0,
    "archived": false,
    "created_at": "2026-11-01T13:23:35Z",
-   "pushed_at": "2026-11-11T22:09:58Z"
+   "pushed_at": "2026-11-13T15:49:13Z"
   },
   {
    "name": "nightscout-plasmoid",
@@ -2407,6 +2407,160 @@
  "commits": [
   {
    "repo": "idoodler/robo-garage",
+   "sha": "4f93031",
+   "message": "Blueprint: take over the Dreame Live Activities (job progress + problems), motor fault = door not open",
+   "url": "https://github.com/idoodler/robo-garage/commit/4f9303178fb9afa321f0bb139527bd656289c3b2",
+   "date": "2026-11-13T15:44:46Z"
+  },
+  {
+   "repo": "idoodler/robo-garage",
+   "sha": "d827fe0",
+   "message": "Blueprint: iOS Live Activities, rear fan drying run after parking",
+   "url": "https://github.com/idoodler/robo-garage/commit/d827fe06e7fb2a4662317390c48fe8b914af33c2",
+   "date": "2026-11-13T15:33:50Z"
+  },
+  {
+   "repo": "idoodler/robo-garage",
+   "sha": "d5ff59b",
+   "message": "Home Assistant blueprint: door follows the robot vacuum, clean button, ring, messages",
+   "url": "https://github.com/idoodler/robo-garage/commit/d5ff59bf0de826fe002c913992c54be964f08001",
+   "date": "2026-11-13T15:27:00Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "2dfbfac",
+   "message": "Scorecard: 3 of 3 consecutive runs green at 1c4d4d1",
+   "url": "https://github.com/idoodler/LabImporter/commit/2dfbfac73e0f28b63b0b8d8452bc5fd03dea2ed6",
+   "date": "2026-11-13T14:08:53Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "1c4d4d1",
+   "message": "Make the evidence honest, and catch values read from another date column",
+   "url": "https://github.com/idoodler/LabImporter/commit/1c4d4d1e43ff20a073d0d2bc8ab5a7e011de0019",
+   "date": "2026-11-13T09:14:21Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "d0f0c27",
+   "message": "Scorecard: 3 of 3 consecutive runs green at 751d6a4",
+   "url": "https://github.com/idoodler/LabImporter/commit/d0f0c2727421afde199d1ef7cbcc59abc032ae16",
+   "date": "2026-11-13T06:48:26Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "751d6a4",
+   "message": "Show Review's values on the folded iPhone Duo at the largest text, and find buttons by identifier",
+   "url": "https://github.com/idoodler/LabImporter/commit/751d6a4f8489798244b956f1aba0d37fd0e0b060",
+   "date": "2026-11-13T02:33:22Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "e6e3518",
+   "message": "Post a transfer import's summary while it still holds the import lock",
+   "url": "https://github.com/idoodler/LabImporter/commit/e6e3518c49edd06f627e6ce46617c21b8eaf1136",
+   "date": "2026-11-13T00:21:26Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "cb10bca",
+   "message": "Drop imports three new files don't need",
+   "url": "https://github.com/idoodler/LabImporter/commit/cb10bca0b64d12b025326e0df958fe8316ebcee9",
+   "date": "2026-11-12T23:41:26Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "2ed411d",
+   "message": "Let the audit run on any iPhone 17 Pro with iOS 27.0, preferring a slimmed one",
+   "url": "https://github.com/idoodler/LabImporter/commit/2ed411d68712afd9bddeb114d76739bbcd356185",
+   "date": "2026-11-12T23:00:55Z"
+  },
+  {
+   "repo": "idoodler/robo-garage",
+   "sha": "3538649",
+   "message": "ESPHome: beam and actuator settings in HA, motor fault check, tunable door",
+   "url": "https://github.com/idoodler/robo-garage/commit/3538649aab57997c3c945247950d4741c3151e80",
+   "date": "2026-11-11T22:08:29Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "5df5cea",
+   "message": "Pin the accessibility audit to one simulator, and print test failures in full",
+   "url": "https://github.com/idoodler/LabImporter/commit/5df5ceab9b1ef8ae0141bbaa462a8867ab0120c0",
+   "date": "2026-11-10T05:12:18Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "75e3662",
+   "message": "Guard saves against doubles and races, and measure on a held-out set",
+   "url": "https://github.com/idoodler/LabImporter/commit/75e36622f6a80d5cec7c053feae1970d8575b2b3",
+   "date": "2026-11-10T03:31:06Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "069247f",
+   "message": "Give the view model tests' waits room on shared CI runners",
+   "url": "https://github.com/idoodler/LabImporter/commit/069247f543f0377e0bfdc0fcd50927695cdd0f30",
+   "date": "2026-11-09T23:37:43Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "be76c19",
+   "message": "Keep the dashboard at its top in a SideEffect, and pick CI simulators by version only",
+   "url": "https://github.com/idoodler/LabImporter/commit/be76c19a031c43b3aad34c64fa8ae142b80e6547",
+   "date": "2026-11-09T22:58:49Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "de3ed9f",
+   "message": "Make the accessibility audit stable and its exemptions honest",
+   "url": "https://github.com/idoodler/LabImporter/commit/de3ed9f944d1f14f250b8b407fe90825f72a75fe",
+   "date": "2026-11-09T22:15:26Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "3115179",
+   "message": "Check dates and qualifiers against the report, with more evidence",
+   "url": "https://github.com/idoodler/LabImporter/commit/3115179c2be14e71375a5f755213981916750316",
+   "date": "2026-11-09T08:15:48Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "098490a",
+   "message": "Export counts in G/L as 10^9/L, check units on the test's own row",
+   "url": "https://github.com/idoodler/LabImporter/commit/098490a64f6e84c6aaad1b6cc097ab14600b7162",
+   "date": "2026-11-09T04:41:11Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "52cfaec",
+   "message": "Fault-test the iOS writes, confirm flagged values, and measure the check honestly",
+   "url": "https://github.com/idoodler/LabImporter/commit/52cfaec6809b92820bf90bb76a907e76233f8557",
+   "date": "2026-11-09T00:38:16Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "fb1207a",
+   "message": "Scorecard: every scripted measure passes",
+   "url": "https://github.com/idoodler/LabImporter/commit/fb1207a290e4319c837501995661a3a88d646c53",
+   "date": "2026-11-08T20:55:00Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "cdcee46",
+   "message": "Flag wrong units and rows, and keep allergen mixes out of name matching",
+   "url": "https://github.com/idoodler/LabImporter/commit/cdcee4649ddf28d4c386409c9bc4a6f8b36eb239",
+   "date": "2026-11-08T20:19:55Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "ed36e34",
+   "message": "Gate quality in CI and generate the scorecard from measurements",
+   "url": "https://github.com/idoodler/LabImporter/commit/ed36e3424ea1717ab7b2ace0626347de0d989dac",
+   "date": "2026-11-08T16:08:56Z"
+  },
+  {
+   "repo": "idoodler/robo-garage",
    "sha": "e315f5f",
    "message": "Parallel lift: drill template on A4 paper instead of a print",
    "url": "https://github.com/idoodler/robo-garage/commit/e315f5f8de17682c7f2920ea23cffeadaa28cd0f",
@@ -2427,6 +2581,13 @@
    "date": "2026-11-08T12:38:38Z"
   },
   {
+   "repo": "idoodler/LabImporter",
+   "sha": "f041d23",
+   "message": "Plain test names, honest charts, visible read errors and audited accessibility",
+   "url": "https://github.com/idoodler/LabImporter/commit/f041d23a9f0e2d7d5f54aac42886d76ac82581ed",
+   "date": "2026-11-08T09:58:23Z"
+  },
+  {
    "repo": "idoodler/robo-garage",
    "sha": "7a298f6",
    "message": "Doors guide: glue the door flanges, add a physical test before fitting",
@@ -2439,6 +2600,20 @@
    "message": "Doors v2.1: stronger, lighter print-in-place hinges",
    "url": "https://github.com/idoodler/robo-garage/commit/b4f0f17d794f281cf653731110146653320dff51",
    "date": "2026-11-07T15:35:09Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "295df50",
+   "message": "Never lose a report on save, and make Review catch model errors",
+   "url": "https://github.com/idoodler/LabImporter/commit/295df50b4fdb4ab48a9e4a532b8593190ef619f1",
+   "date": "2026-11-07T13:57:04Z"
+  },
+  {
+   "repo": "idoodler/LabImporter",
+   "sha": "491e485",
+   "message": "Define how quality is measured",
+   "url": "https://github.com/idoodler/LabImporter/commit/491e4856b3c418bea90eeb8a92ce93a9cafeae76",
+   "date": "2026-11-07T13:57:04Z"
   },
   {
    "repo": "idoodler/robo-garage",
@@ -2859,111 +3034,6 @@
    "message": "Add Ko-fi funding info (#70)",
    "url": "https://github.com/idoodler/LabImporter/commit/8701365e3fc32060e943ac1d7c82fa98dd2394a6",
    "date": "2026-06-06T12:03:41Z"
-  },
-  {
-   "repo": "idoodler/LabImporter",
-   "sha": "97b199c",
-   "message": "Adopt Apple Term of Address inflection + personal Dashboard greeting (#65)",
-   "url": "https://github.com/idoodler/LabImporter/commit/97b199cf8055febbbd369c3a75e810867dbbf22f",
-   "date": "2026-06-04T19:19:36Z"
-  },
-  {
-   "repo": "idoodler/LabImporter",
-   "sha": "55611f5",
-   "message": "Guard PreviewSampleData and all sample-data #Preview blocks behind #if DEBUG",
-   "url": "https://github.com/idoodler/LabImporter/commit/55611f5dbb311e172001240c6a375f6307421793",
-   "date": "2026-06-04T15:20:30Z"
-  },
-  {
-   "repo": "idoodler/LabImporter",
-   "sha": "5f9a0d5",
-   "message": "Guard screenshot mode behind #if DEBUG",
-   "url": "https://github.com/idoodler/LabImporter/commit/5f9a0d53668cbdc734d36a3366158a9e35f69929",
-   "date": "2026-06-04T15:07:19Z"
-  },
-  {
-   "repo": "idoodler/LabImporter",
-   "sha": "8e93c61",
-   "message": "Remove merged light/dark composite screenshots",
-   "url": "https://github.com/idoodler/LabImporter/commit/8e93c61e3594db0ea1ff998f5ac25eb9ffea9825",
-   "date": "2026-06-04T14:55:35Z"
-  },
-  {
-   "repo": "idoodler/LabImporter",
-   "sha": "f27965b",
-   "message": "Use plain Markdown table for screenshots section",
-   "url": "https://github.com/idoodler/LabImporter/commit/f27965b1046b423a3ceb60c42e9100cda62e5444",
-   "date": "2026-06-04T14:52:57Z"
-  },
-  {
-   "repo": "idoodler/LabImporter",
-   "sha": "399b51f",
-   "message": "Refine README screenshots: table layout, rounded corners, separate light/dark",
-   "url": "https://github.com/idoodler/LabImporter/commit/399b51fe2229db22936bd9b8c4ae4331e30193a7",
-   "date": "2026-06-04T14:51:41Z"
-  },
-  {
-   "repo": "idoodler/LabImporter",
-   "sha": "b91c292",
-   "message": "Add README screenshots with light/dark mode composites (#64)",
-   "url": "https://github.com/idoodler/LabImporter/commit/b91c2926e9977793bedae780c7989ca1d632974c",
-   "date": "2026-06-04T14:38:29Z"
-  },
-  {
-   "repo": "idoodler/LabImporter",
-   "sha": "a6d4af4",
-   "message": "Add user-defined reference ranges with out-of-range flagging (#63)",
-   "url": "https://github.com/idoodler/LabImporter/commit/a6d4af4f0e7d6403f5e5a57baccc0cffa39d8ac1",
-   "date": "2026-06-04T12:29:02Z"
-  },
-  {
-   "repo": "idoodler/LabImporter",
-   "sha": "23dc9e8",
-   "message": "Disclose nickname iCloud sync + rename \"custom name\" to \"Nickname\" (#62)",
-   "url": "https://github.com/idoodler/LabImporter/commit/23dc9e89c977195662f4a6fef2554136386b1217",
-   "date": "2026-06-03T04:31:03Z"
-  },
-  {
-   "repo": "idoodler/LabImporter",
-   "sha": "4c85fd4",
-   "message": "Remove Mac support from device requirement messaging (#61)",
-   "url": "https://github.com/idoodler/LabImporter/commit/4c85fd44bbd046b119b0e7df18395bf9daab6f52",
-   "date": "2026-06-02T21:34:14Z"
-  },
-  {
-   "repo": "idoodler/LabImporter",
-   "sha": "3bac52c",
-   "message": "xCode updated localizations",
-   "url": "https://github.com/idoodler/LabImporter/commit/3bac52cba2e61f90440578aa5481dc043963e7e5",
-   "date": "2026-06-02T20:08:15Z"
-  },
-  {
-   "repo": "idoodler/LabImporter",
-   "sha": "fe77511",
-   "message": "Auto-focus lab test search and restyle pickers + Add Value sheet (#57)",
-   "url": "https://github.com/idoodler/LabImporter/commit/fe77511dc85d6bb7f9e764838e523f408757f520",
-   "date": "2026-06-02T19:00:02Z"
-  },
-  {
-   "repo": "idoodler/LabImporter",
-   "sha": "feac9ef",
-   "message": "Polish LOINC detail screen with category background and clearer custom name (#56)",
-   "url": "https://github.com/idoodler/LabImporter/commit/feac9efc95d28a0742edd8c860583b1c44026ce3",
-   "date": "2026-06-02T11:09:25Z"
-  },
-  {
-   "repo": "idoodler/LabImporter",
-   "sha": "70be19e",
-   "message": "Match report detail menu button style to TrendView (no circle) (#55)",
-   "url": "https://github.com/idoodler/LabImporter/commit/70be19ed7396f93dc1910f0a046396c6b24a4654",
-   "date": "2026-06-02T10:11:46Z"
-  },
-  {
-   "repo": "idoodler/LabImporter",
-   "sha": "61eac89",
-   "message": "Share a common license screen and read app license from LICENSE file (#52)",
-   "url": "https://github.com/idoodler/LabImporter/commit/61eac89f204ec99dfba17cdc84081083a371db52",
-   "date": "2026-06-02T05:14:59Z"
   },
   {
    "repo": "idoodler/plane-tracker",
