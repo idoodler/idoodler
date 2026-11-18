@@ -6,9 +6,9 @@ Always building fun projects · Smart Home · Apple by day · Linux by heart
 
 [Mastodon](https://techhub.social/@idoodler) · [LinkedIn](https://www.linkedin.com/in/david-g%C3%B6lzh%C3%A4user-9112491b7) · [Instagram](https://instagram.com/idoodler) · [Reddit](https://reddit.com/user/idoodler) · [Stack Overflow](https://stackoverflow.com/users/1766321)
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg"><img src="assets/stats-light.svg" alt="805 contributions (12 mo), 45 public repositories, 82 stars, 33 followers" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg"><img src="assets/stats-light.svg" alt="806 contributions (12 mo), 45 public repositories, 82 stars, 33 followers" width="100%"></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg"><img src="assets/activity-light.svg" alt="805 contributions in the last 12 months" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg"><img src="assets/activity-light.svg" alt="806 contributions in the last 12 months" width="100%"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg"><img src="assets/languages-light.svg" alt="Languages lately: Kotlin 27%, QML 18%, Python 12%, JavaScript 11%, TypeScript 11%, HTML 10%, Swift 8%, OpenSCAD 2%, Shell 1%" width="100%"></picture>
 
@@ -30,9 +30,9 @@ Always building fun projects · Smart Home · Apple by day · Linux by heart
 
 ### Latest commits
 
+- [ESPHome: API encryption key and OTA password from secrets.yaml](https://github.com/idoodler/robo-garage/commit/bc3a128dec9908fed02f9e8a6ba013fbea974529) · robo-garage · 17 Nov 2026
 - [Blueprint: state trigger without to: null (not\_to already skips attribute changes)](https://github.com/idoodler/robo-garage/commit/da6fab48c8cd69ae17016e2e58ece94aa45c09a8) · robo-garage · 13 Nov 2026
 - [Blueprint: no door opening for the mop wash after the job, lights follow problems and job progress](https://github.com/idoodler/robo-garage/commit/3216af8cfe5a0cd36c1ece92308d52f82dc1de48) · robo-garage · 13 Nov 2026
-- [Blueprint: take over the Dreame Live Activities (job progress + problems), motor fault = door not open](https://github.com/idoodler/robo-garage/commit/4f9303178fb9afa321f0bb139527bd656289c3b2) · robo-garage · 13 Nov 2026
 - [Scorecard: 3 of 3 consecutive runs green at 1c4d4d1](https://github.com/idoodler/LabImporter/commit/2dfbfac73e0f28b63b0b8d8452bc5fd03dea2ed6) · LabImporter · 13 Nov 2026
 - [Make the evidence honest, and catch values read from another date column](https://github.com/idoodler/LabImporter/commit/1c4d4d1e43ff20a073d0d2bc8ab5a7e011de0019) · LabImporter · 13 Nov 2026
 - [Scorecard: 3 of 3 consecutive runs green at 751d6a4](https://github.com/idoodler/LabImporter/commit/d0f0c2727421afde199d1ef7cbcc59abc032ae16) · LabImporter · 13 Nov 2026

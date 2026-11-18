@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T22:53:51Z",
+ "generated_at": "2026-11-18T04:24:07Z",
  "user": {
   "login": "idoodler",
   "name": "David Gölzhäuser",
@@ -42,7 +42,7 @@
  ],
  "stars": 82,
  "contributions": {
-  "total": 805,
+  "total": 806,
   "days": [
    {
     "date": "2025-11-16",
@@ -1878,6 +1878,11 @@
     "date": "2026-11-17",
     "level": 0,
     "count": 0
+   },
+   {
+    "date": "2026-11-18",
+    "level": 1,
+    "count": 1
    }
   ]
  },
@@ -1941,7 +1946,7 @@
    "languages": [
     {
      "name": "Python",
-     "share": 0.474,
+     "share": 0.475,
      "color": "#3572a5"
     },
     {
@@ -1951,7 +1956,7 @@
     },
     {
      "name": "OpenSCAD",
-     "share": 0.111,
+     "share": 0.11,
      "color": "#8b949e"
     }
    ],
@@ -1960,7 +1965,7 @@
    "forks": 0,
    "archived": false,
    "created_at": "2026-11-01T13:23:35Z",
-   "pushed_at": "2026-11-17T22:44:43Z"
+   "pushed_at": "2026-11-17T23:01:27Z"
   },
   {
    "name": "LabImporter",
@@ -2385,6 +2390,13 @@
   }
  ],
  "commits": [
+  {
+   "repo": "idoodler/robo-garage",
+   "sha": "bc3a128",
+   "message": "ESPHome: API encryption key and OTA password from secrets.yaml",
+   "url": "https://github.com/idoodler/robo-garage/commit/bc3a128dec9908fed02f9e8a6ba013fbea974529",
+   "date": "2026-11-17T23:01:24Z"
+  },
   {
    "repo": "idoodler/robo-garage",
    "sha": "da6fab4",
