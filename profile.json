@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T02:47:31Z",
+ "generated_at": "2026-11-23T12:48:32Z",
  "user": {
   "login": "idoodler",
   "name": "David Gölzhäuser",
@@ -42,7 +42,7 @@
  ],
  "stars": 82,
  "contributions": {
-  "total": 813,
+  "total": 1346,
   "days": [
    {
     "date": "2025-11-23",
@@ -976,32 +976,32 @@
    },
    {
     "date": "2026-05-28",
-    "level": 2,
+    "level": 1,
     "count": 21
    },
    {
     "date": "2026-05-29",
-    "level": 2,
+    "level": 1,
     "count": 18
    },
    {
     "date": "2026-05-30",
-    "level": 2,
+    "level": 1,
     "count": 15
    },
    {
     "date": "2026-05-31",
-    "level": 4,
+    "level": 2,
     "count": 40
    },
    {
     "date": "2026-06-01",
-    "level": 2,
+    "level": 1,
     "count": 18
    },
    {
     "date": "2026-06-02",
-    "level": 2,
+    "level": 1,
     "count": 22
    },
    {
@@ -1011,7 +1011,7 @@
    },
    {
     "date": "2026-06-04",
-    "level": 2,
+    "level": 1,
     "count": 18
    },
    {
@@ -1026,7 +1026,7 @@
    },
    {
     "date": "2026-06-07",
-    "level": 2,
+    "level": 1,
     "count": 17
    },
    {
@@ -1576,7 +1576,7 @@
    },
    {
     "date": "2026-09-25",
-    "level": 4,
+    "level": 2,
     "count": 38
    },
    {
@@ -1586,7 +1586,7 @@
    },
    {
     "date": "2026-09-27",
-    "level": 2,
+    "level": 1,
     "count": 22
    },
    {
@@ -1686,12 +1686,12 @@
    },
    {
     "date": "2026-10-17",
-    "level": 2,
+    "level": 1,
     "count": 13
    },
    {
     "date": "2026-10-18",
-    "level": 2,
+    "level": 1,
     "count": 14
    },
    {
@@ -1716,7 +1716,7 @@
    },
    {
     "date": "2026-10-23",
-    "level": 2,
+    "level": 1,
     "count": 17
    },
    {
@@ -1736,12 +1736,12 @@
    },
    {
     "date": "2026-10-27",
-    "level": 2,
+    "level": 1,
     "count": 16
    },
    {
     "date": "2026-10-28",
-    "level": 2,
+    "level": 1,
     "count": 13
    },
    {
@@ -1751,12 +1751,12 @@
    },
    {
     "date": "2026-10-30",
-    "level": 3,
+    "level": 1,
     "count": 27
    },
    {
     "date": "2026-10-31",
-    "level": 4,
+    "level": 2,
     "count": 49
    },
    {
@@ -1771,12 +1771,12 @@
    },
    {
     "date": "2026-11-03",
-    "level": 2,
+    "level": 1,
     "count": 24
    },
    {
     "date": "2026-11-04",
-    "level": 2,
+    "level": 1,
     "count": 22
    },
    {
@@ -1821,22 +1821,22 @@
    },
    {
     "date": "2026-11-13",
-    "level": 2,
+    "level": 1,
     "count": 20
    },
    {
     "date": "2026-11-14",
-    "level": 2,
+    "level": 1,
     "count": 14
    },
    {
     "date": "2026-11-15",
-    "level": 3,
+    "level": 1,
     "count": 32
    },
    {
     "date": "2026-11-16",
-    "level": 2,
+    "level": 1,
     "count": 14
    },
    {
@@ -1851,28 +1851,28 @@
    },
    {
     "date": "2026-11-19",
-    "level": 1,
-    "count": 4
+    "level": 4,
+    "count": 104
    },
    {
     "date": "2026-11-20",
-    "level": 0,
-    "count": 0
+    "level": 4,
+    "count": 157
    },
    {
     "date": "2026-11-21",
-    "level": 0,
-    "count": 0
+    "level": 4,
+    "count": 136
    },
    {
     "date": "2026-11-22",
-    "level": 0,
-    "count": 0
+    "level": 4,
+    "count": 132
    },
    {
     "date": "2026-11-23",
-    "level": 0,
-    "count": 0
+    "level": 1,
+    "count": 8
    }
   ]
  },
