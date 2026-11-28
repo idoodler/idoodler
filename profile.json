@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T19:58:33Z",
+ "generated_at": "2026-11-28T02:42:36Z",
  "user": {
   "login": "idoodler",
   "name": "David Gölzhäuser",
@@ -40,9 +40,9 @@
    "url": "https://stackoverflow.com/users/1766321"
   }
  ],
- "stars": 83,
+ "stars": 84,
  "contributions": {
-  "total": 1565,
+  "total": 883,
   "days": [
    {
     "date": "2025-11-23",
@@ -976,32 +976,32 @@
    },
    {
     "date": "2026-05-28",
-    "level": 1,
+    "level": 2,
     "count": 21
    },
    {
     "date": "2026-05-29",
-    "level": 1,
+    "level": 2,
     "count": 18
    },
    {
     "date": "2026-05-30",
-    "level": 1,
+    "level": 2,
     "count": 15
    },
    {
     "date": "2026-05-31",
-    "level": 2,
+    "level": 4,
     "count": 40
    },
    {
     "date": "2026-06-01",
-    "level": 1,
+    "level": 2,
     "count": 18
    },
    {
     "date": "2026-06-02",
-    "level": 1,
+    "level": 2,
     "count": 22
    },
    {
@@ -1011,7 +1011,7 @@
    },
    {
     "date": "2026-06-04",
-    "level": 1,
+    "level": 2,
     "count": 18
    },
    {
@@ -1026,7 +1026,7 @@
    },
    {
     "date": "2026-06-07",
-    "level": 1,
+    "level": 2,
     "count": 17
    },
    {
@@ -1576,7 +1576,7 @@
    },
    {
     "date": "2026-09-25",
-    "level": 2,
+    "level": 4,
     "count": 38
    },
    {
@@ -1586,7 +1586,7 @@
    },
    {
     "date": "2026-09-27",
-    "level": 1,
+    "level": 2,
     "count": 22
    },
    {
@@ -1686,12 +1686,12 @@
    },
    {
     "date": "2026-10-17",
-    "level": 1,
+    "level": 2,
     "count": 13
    },
    {
     "date": "2026-10-18",
-    "level": 1,
+    "level": 2,
     "count": 14
    },
    {
@@ -1716,7 +1716,7 @@
    },
    {
     "date": "2026-10-23",
-    "level": 1,
+    "level": 2,
     "count": 17
    },
    {
@@ -1736,12 +1736,12 @@
    },
    {
     "date": "2026-10-27",
-    "level": 1,
+    "level": 2,
     "count": 16
    },
    {
     "date": "2026-10-28",
-    "level": 1,
+    "level": 2,
     "count": 13
    },
    {
@@ -1751,12 +1751,12 @@
    },
    {
     "date": "2026-10-30",
-    "level": 1,
+    "level": 3,
     "count": 27
    },
    {
     "date": "2026-10-31",
-    "level": 2,
+    "level": 4,
     "count": 49
    },
    {
@@ -1771,12 +1771,12 @@
    },
    {
     "date": "2026-11-03",
-    "level": 1,
+    "level": 2,
     "count": 24
    },
    {
     "date": "2026-11-04",
-    "level": 1,
+    "level": 2,
     "count": 22
    },
    {
@@ -1821,22 +1821,22 @@
    },
    {
     "date": "2026-11-13",
-    "level": 1,
+    "level": 2,
     "count": 20
    },
    {
     "date": "2026-11-14",
-    "level": 1,
+    "level": 2,
     "count": 14
    },
    {
     "date": "2026-11-15",
-    "level": 1,
+    "level": 3,
     "count": 32
    },
    {
     "date": "2026-11-16",
-    "level": 1,
+    "level": 2,
     "count": 14
    },
    {
@@ -1851,48 +1851,53 @@
    },
    {
     "date": "2026-11-19",
-    "level": 4,
-    "count": 104
+    "level": 1,
+    "count": 4
    },
    {
     "date": "2026-11-20",
-    "level": 4,
-    "count": 157
+    "level": 0,
+    "count": 0
    },
    {
     "date": "2026-11-21",
-    "level": 4,
-    "count": 136
+    "level": 0,
+    "count": 0
    },
    {
     "date": "2026-11-22",
-    "level": 4,
-    "count": 132
+    "level": 0,
+    "count": 0
    },
    {
     "date": "2026-11-23",
-    "level": 2,
-    "count": 37
+    "level": 1,
+    "count": 2
    },
    {
     "date": "2026-11-24",
-    "level": 2,
-    "count": 35
+    "level": 1,
+    "count": 3
    },
    {
     "date": "2026-11-25",
     "level": 3,
-    "count": 81
+    "count": 29
    },
    {
     "date": "2026-11-26",
-    "level": 2,
-    "count": 38
+    "level": 1,
+    "count": 7
    },
    {
     "date": "2026-11-27",
-    "level": 2,
-    "count": 36
+    "level": 3,
+    "count": 29
+   },
+   {
+    "date": "2026-11-28",
+    "level": 0,
+    "count": 0
    }
   ]
  },
@@ -1914,7 +1919,7 @@
   },
   {
    "name": "JavaScript",
-   "share": 0.108,
+   "share": 0.107,
    "color": "#f1e05a"
   },
   {
@@ -1971,7 +1976,7 @@
     }
    ],
    "topics": [],
-   "stars": 34,
+   "stars": 35,
    "forks": 13,
    "archived": false,
    "created_at": "2026-05-27T06:54:20Z",
